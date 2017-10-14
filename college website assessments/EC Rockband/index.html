@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CO2</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		
+		<!-- jQuery Mobile -->
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="css/themes/my-custom-theme.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+		<!-- Include the jQuery library -->
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<!-- Include the jQuery Mobile library -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<!-- Include the jQuery Mobile plugins and modifications here: -->
+    <!--[if IE lt 9]>
+    <link href="youtube-video-gallery-legacy-ie.css" type="text/css" rel="stylesheet"/>
+    <![endif]-->
+		<link rel="stylesheet" href="css/mystylesheet.css" media="screen">
+	</head>
+
+	<body>
+
+		<!-- Home Page -->
+		<div data-role="page" id="home">
+
+			<header data-role="header">
+				<h1>EC Band Project</h1>
+			</header>
+			
+			<div data-role="content">
+				<ul data-role="listview" data-inset="true">
+					<li>
+						<a href="#albums">
+							<img src="images/covers/cover1.jpg" alt="Album Pic">
+							<h1>Albums</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, dolorem!</p>
+						</a>
+					</li>
+					<li>
+						<a href="#videos">
+							<img src="images/covers/cover1.jpg" alt="Video Pic">
+							<h1>Videos</h1>
+							<p>Sapiente neque obcaecati nam eius iusto quisquam repudiandae amet totam.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#gallery">
+							<img src="images/covers/cover1.jpg" alt="Album Pic">
+							<h1>Gallery</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, dolorem!</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#" data-icon="home" class="ui-btn-active ui-state-persist">Home</a></li>
+						<li><a href="#albums" data-icon="audio">Albums</a></li>
+						<li><a href="#videos" data-icon="video">Videos</a></li>
+						<li><a href="#gallery" data-icon="camera">Gallery</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div><!-- End of Home Page-->
+		
+		<!-- Albums Page -->
+		<div data-role="page" id="albums">
+
+			<header data-role="header">
+				<h1>Albums</h1>
+				<a href="#home" data-icon="back" data-iconpos="notext">Home</a>
+			</header>
+
+
+			<div data-role="content">
+				<ul data-role="listview" data-inset="true">
+					<li>
+						<a href="#albumOne">
+							<img src="images/covers/Linkin_Park_Minutes_to_Midnight.jpg" alt="Album One">
+							<h1>Album One</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, dolorem!</p>
+						</a>
+					</li>
+					<li>
+						<a href="#albumTwo">
+							<img src="images/covers/cover2.jpg" alt="Album Two">
+							<h1>Album Two</h1>
+							<p>Sapiente neque obcaecati nam eius iusto quisquam repudiandae amet totam.</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#" data-icon="audio" class="ui-btn-active ui-state-persist">Albums</a></li>
+						<li><a href="#videos" data-icon="video">Videos</a></li>
+						<li><a href="#gallery" data-icon="camera">Gallery</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div><!-- End of Albums Page-->
+
+		<!-- Videos Page -->
+		<div data-role="page" id="videos">
+
+			<header data-role="header">
+				<h1>Videos</h1>
+				<a href="#home" data-icon="back" data-iconpos="notext">Home</a>
+			</header>
+
+
+			<div data-role="content">
+				<ul data-role="listview" data-inset="true">
+					<li>
+						<a href="#tours">
+							<img src="images/covers/Linkin_Park_Minutes_to_Midnight.jpg" alt="Album Pic">
+							<h1>Tour videos</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, dolorem!</p>
+						</a>
+					</li>
+					<li>
+						<a href="#vblogs">
+							<img src="images/covers/Linkin_Park_Minutes_to_Midnight.jpg" alt="Video Pic">
+							<h1>Video Blog</h1>
+							<p>Sapiente neque obcaecati nam eius iusto quisquam repudiandae amet totam.</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#albums" data-icon="audio">Albums</a></li>
+						<li><a href="#" data-icon="video" class="ui-btn-active ui-state-persist">Videos</a></li>
+						<li><a href="#gallery" data-icon="camera">Gallery</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div><!-- End of Videos Page-->
+		
+		<!-- Tours videos page -->
+		<div data-role="page" id="tours">
+			<header data-role="header">
+				<h1>Our Tour Videos</h1>
+				<a href="#videos" data-icon="back" data-iconpos="notext">Home</a>
+			</header>		
+
+		<!-- tours video content (plugin from https://plugins.jquery.com/youtubevideogallery/) -->
+                <div data-role="content">
+				    <ul class="youtube-video-gallery">
+						<li><a href="https://www.youtube.com/watch?v=W0E-gC5632A">Rock In Rio</a></li>
+						<li><a href="https://www.youtube.com/watch?v=LLjdSQKzwhM">Wacken Open Air</a></li>
+						<li><a href="https://www.youtube.com/watch?v=Dv3P4HSW-O0">City of Ravens</a></li>
+						<li><a href="https://www.youtube.com/watch?v=W0E-gC5632A">Rock In Rio2</a></li>
+						<li><a href="https://www.youtube.com/watch?v=LLjdSQKzwhM">Wacken Open Air2</a></li>
+						<li><a href="https://www.youtube.com/watch?v=Dv3P4HSW-O0">City of Ravens2</a></li>
+					</ul>
+					<script>
+						$(document).ready(function(){
+							$("ul.youtube-video-gallery").youtubeVideoGallery(  );
+						});
+					</script>
+					<script>
+						$(document).ready(function()
+						{
+						$('textarea').each(function(i, el)
+						{
+							$('#pre-'+ $(el).attr('id')).html($(el).val().replace(/</g,'&lt;'))
+						})
+							$('body').addClass('loaded');
+						})
+					</script>
+				</div>
+			<!-- End of tours -->
+				<footer data-role="footer" data-position="fixed">
+					<nav data-role="navbar">
+						<ul>
+							<li><a href="#home" data-icon="home">Home</a></li>
+							<li><a href="#albums" data-icon="audio">Albums</a></li>
+							<li><a href="#" class="ui-btn-active ui-state-persist" data-icon="video">Videos</a></li>
+							<li><a href="#gallery" data-icon="camera">Gallery</a></li>
+						</ul>
+					</nav>
+				</footer>
+			</div>
+		<!-- End of tours content -->
+		
+		<!-- Blog videos page -->
+		<div data-role="page" id="vblogs">
+			<header data-role="header">
+				<h1>V-Blog</h1>
+				<a href="#videos" data-icon="back" data-iconpos="notext">Home</a>
+			</header>		
+
+		<!-- tours video content (plugin from https://plugins.jquery.com/youtubevideogallery/) -->
+                <div data-role="content">
+				    <ul class="youtube-video-gallery">
+						<li><a href="https://www.youtube.com/watch?v=W0E-gC5632A">Rock In Rio</a></li>
+						<li><a href="https://www.youtube.com/watch?v=LLjdSQKzwhM">Wacken Open Air</a></li>
+						<li><a href="https://www.youtube.com/watch?v=Dv3P4HSW-O0">City of Ravens</a></li>
+						<li><a href="https://www.youtube.com/watch?v=W0E-gC5632A">Rock In Rio2</a></li>
+						<li><a href="https://www.youtube.com/watch?v=LLjdSQKzwhM">Wacken Open Air2</a></li>
+						<li><a href="https://www.youtube.com/watch?v=Dv3P4HSW-O0">City of Ravens2</a></li>
+					</ul>
+					<script>
+						$(document).ready(function(){
+							$("ul.youtube-video-gallery").youtubeVideoGallery(  );
+						});
+					</script>
+					<script>
+						$(document).ready(function()
+						{
+						$('textarea').each(function(i, el)
+						{
+							$('#pre-'+ $(el).attr('id')).html($(el).val().replace(/</g,'&lt;'))
+						})
+							$('body').addClass('loaded');
+						})
+					</script>
+				</div>
+			<!-- End of tours -->
+				<footer data-role="footer" data-position="fixed">
+					<nav data-role="navbar">
+						<ul>
+							<li><a href="#home" data-icon="home">Home</a></li>
+							<li><a href="#albums" data-icon="audio">Albums</a></li>
+							<li><a href="#" class="ui-btn-active ui-state-persist" data-icon="video">Videos</a></li>
+							<li><a href="#gallery" data-icon="camera">Gallery</a></li>
+						</ul>
+					</nav>
+				</footer>
+			</div>
+		<!-- End of tours content -->		
+		
+		
+		
+		<!-- Albums Area -->
+		<!-- Album One -->
+		<div data-role="page" id="albumOne">
+
+			<header data-role="header">
+				<h1>Album One 2015</h1>
+				<a href="#albums" data-icon="back" data-iconpos="notext">Home</a>
+			</header>
+			
+			<div data-role="content">
+				<!-- Cover -->
+				<div data-role="listview" data-inset="true" id="cover">
+					<img class="cover" alt="First Album" style="display:block; margin:5px auto; padding:10px; width:350px;">
+				</div>
+				<!-- End of Cover -->
+				
+				<!-- Audio Player -->
+				<!-- Track Info-->
+				<div id="track-info">
+					<span class="track-name"></span>
+				</div>
+				<!-- End of Track Info-->
+				
+				<!-- Tracker -->
+				<div id="tracker">
+					<div id="progressBar">
+						<input id="progress" class="ui-hidden-accessible" type="range" min="0" max="100" value="0" data-highlight="true" data-mini="true"/>
+					</div>
+					<span id="duration"></span>
+				</div>
+				<!-- End of Tracker -->
+				
+				<br>
+				
+				<!-- Player Buttons -->
+				<div data-role="content">
+					<div id="buttons" style="margin:0 auto; width:274px;">
+						<div id="prev">
+							<img src="images/img_btn_previous.png" alt="Previous Button" style="float:left; margin-top:15px; margin-right:5px;">
+						</div>
+						<div id="play">
+							<img src="images/img_btn_play.png" alt="Previous Button" style="float:left;">
+						</div>
+						<div id="pause">
+							<img src="images/img_btn_pause.png" alt="Previous Button" style="float:left;">
+						</div>
+						<div id="next">
+							<img src="images/img_btn_next.png" alt="Previous Button" style="float:right; margin-top:15px; margin-left:5px;">
+						</div>
+					</div>
+				</div>
+				<!-- End of Player Buttons -->				
+				
+				<!-- Playlist -->
+				<ol data-role="listview" data-inset="true" id="play-list">
+					<li track="sample.wav" cover="Linkin_Park_Minutes_to_Midnight.jpg"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">Track One</a></li>
+					<li track="sample.wav" cover="Linkin_Park_Minutes_to_Midnight.jpg"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">Track Two</a></li>
+					<li track="sample.wav" cover="Linkin_Park_Minutes_to_Midnight.jpg"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">Track Three</a></li>
+				</ol>
+				<!-- End of Playlist -->
+				<!-- End of Audio Player -->
+				<script src="js/main.js"></script>
+			</div>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#" data-icon="audio" class="ui-btn-active ui-state-persist">Albums</a></li>
+						<li><a href="#videos" data-icon="video">Videos</a></li>
+						<li><a href="#gallery" data-icon="camera">Gallery</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div><!-- End of Album One-->
+		
+		<!-- Album Two -->
+		<div data-role="page" id="albumTwo">
+
+			<header data-role="header">
+				<h1>Album Two 2016</h1>
+				<a href="#albums" data-icon="back" data-iconpos="notext">Home</a>
+			</header>
+			
+			<div data-role="content">
+				<!-- Cover -->
+				<div data-role="listview" data-inset="true" id="cover2">
+					<img class="cover" alt="Second Album" style="display:block; margin:5px auto; padding:10px; width:350px;">
+				</div>
+				<!-- End of Cover -->
+				
+				<!-- Audio Player -->
+				<!-- Track Info-->
+				<div id="track-info2">
+					<span class="track-name"></span>
+				</div>
+				<!-- End of Track Info-->
+				
+				<!-- Tracker -->
+				<div id="tracker2">
+					<div id="progressBar">
+						<input id="progress2" class="ui-hidden-accessible" type="range" min="0" max="100" value="0" data-highlight="true" data-mini="true"/>
+					</div>
+					<span id="duration2"></span>
+				</div>
+				<!-- End of Tracker -->
+				
+				<br>
+				
+				<!-- Player Buttons -->
+				<div data-role="content">
+					<div id="buttons2" style="margin:0 auto; width:274px;">
+						<div id="prev2">
+							<img src="images/img_btn_previous.png" alt="Previous Button" style="float:left; margin-top:15px; margin-right:5px;">
+						</div>
+						<div id="play2">
+							<img src="images/img_btn_play.png" alt="Previous Button" style="float:left;">
+						</div>
+						<div id="pause2">
+							<img src="images/img_btn_pause.png" alt="Previous Button" style="float:left;">
+						</div>
+						<div id="next2">
+							<img src="images/img_btn_next.png" alt="Previous Button" style="float:right; margin-top:15px; margin-left:5px;">
+						</div>
+					</div>
+				</div>
+				<!-- End of Player Buttons -->				
+				
+				<!-- Playlist -->
+				<ol data-role="listview" data-inset="true" id="play-list2">
+					<li track="sample.wav" cover="cover2.jpg"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">Track One</a></li>
+					<li track="sample.wav" cover="cover2.jpg"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">Track Two</a></li>
+					<li track="sample.wav" cover="cover2.jpg"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">Track Three</a></li>
+				</ol>
+				<!-- End of Playlist -->
+				<!-- End of Audio Player -->
+			</div>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#" data-icon="audio" class="ui-btn-active ui-state-persist">Albums</a></li>
+						<li><a href="#videos" data-icon="video">Videos</a></li>
+						<li><a href="#gallery" data-icon="camera">Gallery</a></li>
+					</ul>
+				</nav>
+			</footer>
+			<script src="js/main2.js"></script>
+		</div><!-- End of Album One-->		
+		
+		<!-- Gallery page -->
+		<div data-role="page" id="gallery">
+			<header data-role="header">
+				<h1>Gallery</h1>
+				<a href="#home" data-icon="back" data-iconpos="notext">Home</a>
+			</header>		
+			
+		<!-- Gallery content -->
+                <div class="gallery" align="center">
+                <br />
+           
+                <div class="thumbnails">
+                    <img onmouseover="preview.src=img1.src" name="img1" src="images/gallery/1.jpg" alt=""/>
+                    <img onmouseover="preview.src=img2.src" name="img2" src="images/gallery/2.jpg" alt=""/>
+                    <img onmouseover="preview.src=img3.src" name="img3" src="images/gallery/3.jpg" alt=""/>
+                    <img onmouseover="preview.src=img4.src" name="img4" src="images/gallery/4.jpg" alt=""/>
+                    <img onmouseover="preview.src=img5.src" name="img5" src="images/gallery/5.jpg" alt=""/>
+                </div><br/>
+               
+                <!-- Preview img -->
+                <div class="center">
+                    <img name="preview" src="images/gallery/1.jpg" class= "imgDoubleBorder" align="middle" width=70% height=50% alt=""/>
+                </div> <!-- End of preview -->
+				
+				<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#albums" data-icon="audio">Albums</a></li>
+						<li><a href="#videos" data-icon="video">Videos</a></li>
+						<li><a href="#" data-icon="camera" class="ui-btn-active ui-state-persist">Gallery</a></li>
+					</ul>
+				</nav>
+			</footer>
+		<!-- End of gallery content -->		
+	</body>
+</html>
+

@@ -1,0 +1,5 @@
+a,g,q,w,e,t
+s,t,x,g,k,o,p
+a,e,i,o,u
+z,x,c,v,b,n,m
+!,",£,$,%

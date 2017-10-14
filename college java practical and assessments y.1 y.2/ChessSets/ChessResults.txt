@@ -1,0 +1,82 @@
+Task1: Display all players from chess2000 set. 
+
+[Kramnik, Vladimir]
+[Topalov, Veselin]
+[Aronian, Levon]
+[Giri, Anish]
+[Carlsen, Magnus]
+[Nakamura, Hikaru]
+[Anand, Viswanathan]
+[Caruana, Fablano]
+[So, Wesley]
+[Grischuk, Alexander]
+
+
+Task2: Display all players from chess2015 set. 
+
+[Leko, Peter]
+[Kramnik, Vladimir]
+[Shirov, Alexei]
+[Topalov, Veselin]
+[Morozevich, Alexander]
+[Kasparov, Garry]
+[Adams, Michael]
+[Ivanchuk, Vassily]
+[Anand, Viswanathan]
+[Krasenkow, Michal]
+
+
+Task3: Players common to both sets: 
+
+[Kramnik, Vladimir]
+[Topalov, Veselin]
+[Anand, Viswanathan]
+
+
+Task4: All players from both sets: 
+
+[Kramnik, Vladimir]
+[Shirov, Alexei]
+[Morozevich, Alexander]
+[Giri, Anish]
+[Carlsen, Magnus]
+[Ivanchuk, Vassily]
+[Caruana, Fablano]
+[Grischuk, Alexander]
+[Leko, Peter]
+[Topalov, Veselin]
+[Aronian, Levon]
+[Kasparov, Garry]
+[Adams, Michael]
+[Nakamura, Hikaru]
+[Anand, Viswanathan]
+[Krasenkow, Michal]
+[So, Wesley]
+
+
+Task5: All players in chess2000 that are not in chess2015: 
+
+[Leko, Peter]
+[Shirov, Alexei]
+[Morozevich, Alexander]
+[Kasparov, Garry]
+[Adams, Michael]
+[Ivanchuk, Vassily]
+[Krasenkow, Michal]
+
+
+Task6: All players in chess2015 that are not in chess2000: 
+
+[Aronian, Levon]
+[Giri, Anish]
+[Carlsen, Magnus]
+[Nakamura, Hikaru]
+[Caruana, Fablano]
+[So, Wesley]
+[Grischuk, Alexander]
+
+
+TASK 7 Add a duplicate player and show the set has not changed: 
+Add: [Carlsen, Magnus] to the set chess2015
+Set size did not change: true
+END OF FILE, ALL TASKS COMPLETED

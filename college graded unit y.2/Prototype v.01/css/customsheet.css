@@ -1,0 +1,41 @@
+/*
+This is my custom css sheet for any modifications required.
+*/
+
+/*use this to create vertical menu and banner matching size of the screen*/
+	
+/* make sidebar nav vertical and styled for use*/ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+img {
+    width: 100%;
+}
+
+
+/*set input size for all forms*/
+.mytext {
+    width: 180px;
+}
+
+/*adjust form align*/
+#al-left{
+	float:left;
+}

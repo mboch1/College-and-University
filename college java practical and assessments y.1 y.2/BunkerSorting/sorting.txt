@@ -1,0 +1,174 @@
+Robots: Learning to program with Java
+# first street, first avenue, num streets, num avenues
+0 0 8 8
+# intersection size
+48
+
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Wall 0 1 EAST
+   becker.robots.Wall 0 1 SOUTH
+   becker.robots.Wall 0 1 NORTH
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Thing 0 1
+   becker.robots.Wall 0 1 EAST
+   becker.robots.Wall 0 1 SOUTH
+   becker.robots.Wall 0 1 NORTH
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Wall 2 1 EAST
+   becker.robots.Wall 2 1 SOUTH
+   becker.robots.Wall 2 1 NORTH
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Thing 2 1
+   becker.robots.Wall 2 1 EAST
+   becker.robots.Wall 2 1 SOUTH
+   becker.robots.Wall 2 1 NORTH
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Wall 4 1 EAST
+   becker.robots.Wall 4 1 SOUTH
+   becker.robots.Wall 4 1 NORTH
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Thing 4 1
+   becker.robots.Wall 4 1 EAST
+   becker.robots.Wall 4 1 SOUTH
+   becker.robots.Wall 4 1 NORTH
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Wall 6 1 EAST
+   becker.robots.Wall 6 1 SOUTH
+   becker.robots.Wall 6 1 NORTH
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Thing 6 1
+   becker.robots.Wall 6 1 EAST
+   becker.robots.Wall 6 1 SOUTH
+   becker.robots.Wall 6 1 NORTH
+   becker.robots.Wall 2 3 EAST
+   becker.robots.Wall 2 3 SOUTH
+   becker.robots.Wall 2 3 NORTH
+   becker.robots.Wall 2 3 EAST
+   becker.robots.Wall 2 3 SOUTH
+   becker.robots.Wall 2 3 NORTH
+   becker.robots.Wall 0 3 EAST
+   becker.robots.Wall 0 3 SOUTH
+   becker.robots.Wall 0 3 NORTH
+   becker.robots.Wall 0 3 EAST
+   becker.robots.Wall 0 3 SOUTH
+   becker.robots.Wall 0 3 NORTH
+   becker.robots.Wall 6 3 EAST
+   becker.robots.Wall 6 3 SOUTH
+   becker.robots.Wall 6 3 NORTH
+   becker.robots.Wall 6 3 EAST
+   becker.robots.Wall 6 3 SOUTH
+   becker.robots.Wall 6 3 NORTH
+   becker.robots.Wall 4 3 EAST
+   becker.robots.Wall 4 3 SOUTH
+   becker.robots.Wall 4 3 NORTH
+   becker.robots.Wall 4 3 EAST
+   becker.robots.Wall 4 3 SOUTH
+   becker.robots.Wall 4 3 NORTH
+   becker.robots.Wall 4 5 EAST
+   becker.robots.Wall 4 5 SOUTH
+   becker.robots.Wall 4 5 NORTH
+   becker.robots.Wall 4 5 EAST
+   becker.robots.Wall 4 5 SOUTH
+   becker.robots.Wall 4 5 NORTH
+   becker.robots.Wall 6 5 EAST
+   becker.robots.Wall 6 5 SOUTH
+   becker.robots.Wall 6 5 NORTH
+   becker.robots.Wall 6 5 EAST
+   becker.robots.Wall 6 5 SOUTH
+   becker.robots.Wall 6 5 NORTH
+   becker.robots.Wall 0 5 EAST
+   becker.robots.Wall 0 5 SOUTH
+   becker.robots.Wall 0 5 NORTH
+   becker.robots.Wall 0 5 EAST
+   becker.robots.Wall 0 5 SOUTH
+   becker.robots.Wall 0 5 NORTH
+   becker.robots.Wall 2 5 EAST
+   becker.robots.Wall 2 5 SOUTH
+   becker.robots.Wall 2 5 NORTH
+   becker.robots.Wall 2 5 EAST
+   becker.robots.Wall 2 5 SOUTH
+   becker.robots.Wall 2 5 NORTH
+   becker.robots.Wall 6 7 EAST
+   becker.robots.Wall 6 7 SOUTH
+   becker.robots.Wall 6 7 NORTH
+   becker.robots.Wall 6 7 EAST
+   becker.robots.Wall 6 7 SOUTH
+   becker.robots.Wall 6 7 NORTH
+   becker.robots.Wall 4 7 EAST
+   becker.robots.Wall 4 7 SOUTH
+   becker.robots.Wall 4 7 NORTH
+   becker.robots.Wall 4 7 EAST
+   becker.robots.Wall 4 7 SOUTH
+   becker.robots.Wall 4 7 NORTH
+   becker.robots.Wall 2 7 EAST
+   becker.robots.Wall 2 7 SOUTH
+   becker.robots.Wall 2 7 NORTH
+   becker.robots.Wall 2 7 EAST
+   becker.robots.Wall 2 7 SOUTH
+   becker.robots.Wall 2 7 NORTH
+   becker.robots.Wall 0 7 EAST
+   becker.robots.Wall 0 7 SOUTH
+   becker.robots.Wall 0 7 NORTH
+   becker.robots.Wall 0 7 EAST
+   becker.robots.Wall 0 7 SOUTH
+   becker.robots.Wall 0 7 NORTH

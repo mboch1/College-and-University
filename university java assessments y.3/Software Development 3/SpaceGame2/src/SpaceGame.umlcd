@@ -1,0 +1,2969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_FbuugLIuEeaXg4d1gXIJ2A">
+  <modelElement href="SpaceGame.uml#_F8uiwLIuEeaXg4d1gXIJ2A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJi_oLIuEeaXg4d1gXIJ2A" sourceAnchor="318.0,266.0" targetAnchor="158.0,536.0" target="_IJ8BObIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGgJ0bIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_8C1QALIuEeaXg4d1gXIJ2A" visible="false"/>
+    <bendpoints xmi:id="_5qzBorIuEeaXg4d1gXIJ2A" sourceX="60" targetX="220" targetY="-270"/>
+    <bendpoints xmi:id="_5qzBo7IuEeaXg4d1gXIJ2A" sourceX="60" sourceY="352" targetX="220" targetY="82"/>
+    <bendpoints xmi:id="_5qzBpLIuEeaXg4d1gXIJ2A" sourceX="-160" sourceY="353" targetY="83"/>
+    <stereotypes xmi:id="_IJy3Q7IuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGgJ07IuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJy3QLIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_I1eRgLIuEeaXg4d1gXIJ2A" position="-21.0,-334.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IJy3QbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGgJ0rIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1dDYbIuEeaXg4d1gXIJ2A" position="5.0,-49.0"/>
+      <visibility xmi:id="_IJ0scbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ0scLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJy3QrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFZWk7IuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1eRgbIuEeaXg4d1gXIJ2A" position="3.0,5.0"/>
+      <visibility xmi:id="_IJ0sc7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ0scrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJvz8LIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGgw4LIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJzeU7IuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGgw4rIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJzeULIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJzeUbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGgw4bIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ1TgbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ1TgLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJzeUrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="shipsList" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFZ9obIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ1Tg7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ1TgrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJvz8bIuEeaXg4d1gXIJ2A" sourceAnchor="126.0,0.0" targetAnchor="544.0,518.0" target="_IOr-ULIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGhX8bIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ0FYrIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGh_ALIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJzeVLIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_I1gtwLIuEeaXg4d1gXIJ2A" position="-39.0,-14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IJ0FYLIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGhX8rIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1ffoLIuEeaXg4d1gXIJ2A" position="-17.0,-84.0"/>
+      <visibility xmi:id="_IJ1Th7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ1ThrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ0FYbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="game" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFaktLIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1gtwbIuEeaXg4d1gXIJ2A" position="2.0,42.0"/>
+      <visibility xmi:id="_IJ1TibIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ1TiLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJvz8rIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGh_BLIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ0FZrIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGimELIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ0FY7IuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ0FZLIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGh_BbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ1TjLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ1Ti7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ0FZbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="turnHistory" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFbLxLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ1TjrIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ1TjbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IJxCEbIuEeaXg4d1gXIJ2A" targetItem="_IJ8BzbIuEeaXg4d1gXIJ2A" sourceItem="_IJxCELIuEeaXg4d1gXIJ2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_IJxpIbIuEeaXg4d1gXIJ2A" targetItem="_IJ8B07IuEeaXg4d1gXIJ2A" sourceItem="_IJxpILIuEeaXg4d1gXIJ2A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ3IsLIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGb4YLIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ3IsbIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGcfcLIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ3IsrIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ3Is7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGb4YbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ3ItLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ3ItbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ3ItrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="contentPane" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFVsMbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ3It7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ3IuLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ3vwLIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGdGgLIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ3vwbIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGdGgrIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ3vwrIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ3vw7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGdGgbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ3vxLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ3vxbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ3vxrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="buttonGroup" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFWTQbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ3vx7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ3vyLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ3vybIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGdGg7IuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ3vyrIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGdtkLIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ3vy7IuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ3vzLIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGdGhLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ3vzbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ3vzrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ3vz7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="btnNextTurn" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFWTRLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ3v0LIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ3v0bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ4W0LIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGdtkbIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ4W0bIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGeUoLIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ4W0rIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ4W07IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGdtkrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ4W1LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ4W1bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ4W1rIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="btnUndoMove" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFW6UbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ4W17IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ4W2LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ494LIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGeUobIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ494bIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGeUo7IuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ494rIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ4947IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGeUorIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ495LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ495bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ495rIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="rdbtnDefensiveMode" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFW6U7IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ4957IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ496LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ5k8LIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGeUpLIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ5k8bIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGe7sLIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ5k8rIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ5k87IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGeUpbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ5k9LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ5k9bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ5k9rIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="rdbtnOffensiveMode" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFXhYLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ5k97IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ5k-LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ5k-bIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGe7sbIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ5k-rIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGfiwLIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ5k-7IuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ5k_LIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGe7srIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ5k_bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ5k_rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ5k_7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="turnCounter" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFXhYrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ5lALIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ5lAbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ6MALIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGfiwbIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ6MAbIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGfiw7IuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ6MArIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ6MA7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGfiwrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ6MBLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ6MBbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ6MBrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="gameScore" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFYIcLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ6MB7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ6MCLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ6MCbIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGfixLIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ6MCrIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGgJ0LIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ6MC7IuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ6MDLIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGfixbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ6MDbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ6MDrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ6MD7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="gameHistory" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFYIcrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ6MELIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ6MEbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ6zELIuEeaXg4d1gXIJ2A" sourceAnchor="318.0,506.0" targetAnchor="0.0,137.0" target="_IMQVYLIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGgw47IuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ6zEbIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGhX8LIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ6zErIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_I1ii8LIuEeaXg4d1gXIJ2A" position="-19.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IJ6zE7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGgw5LIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1h74LIuEeaXg4d1gXIJ2A" position="12.0,2.0"/>
+      <visibility xmi:id="_IJ6zFLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ6zFbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ6zFrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="canvas" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFaksbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1jKALIuEeaXg4d1gXIJ2A" position="-75.0,2.0"/>
+      <visibility xmi:id="_IJ6zF7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ6zGLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ7aILIuEeaXg4d1gXIJ2A" sourceAnchor="186.0,0.0" targetAnchor="6.0,73.0" target="_IWdaQLIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGh_AbIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ7aIbIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGh_A7IuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ7aIrIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_I1k_MLIuEeaXg4d1gXIJ2A" position="2.0,-28.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IJ7aI7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGh_ArIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1kYILIuEeaXg4d1gXIJ2A" position="2.0,-69.0"/>
+      <visibility xmi:id="_IJ7aJLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ7aJbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ7aJrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="battle" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFbLwbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1k_MbIuEeaXg4d1gXIJ2A" position="-47.0,25.0"/>
+      <visibility xmi:id="_IJ7aJ7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ7aKLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IJ8BMLIuEeaXg4d1gXIJ2A" source="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGimEbIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IJ8BMbIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGimE7IuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IJ8BMrIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IJ8BM7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGimErIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ8BNLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8BNbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IJ8BNrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="r" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFby07IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ8BN7IuEeaXg4d1gXIJ2A" label="~"/>
+      <cardinality xmi:id="_IJ8BOLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ILgugLIuEeaXg4d1gXIJ2A" sourceAnchor="318.0,30.0" targetAnchor="0.0,53.0" dashed="true" superClass="_ILh8oLIuEeaXg4d1gXIJ2A" subClass="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GDvwwbIuEeaXg4d1gXIJ2A"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IL03kLIuEeaXg4d1gXIJ2A" source="_IMQVYLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGjNILIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IMPuUbIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGjNIrIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IMPHQLIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IMPHQbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGjNIbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMPuU7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMPuUrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IMPuULIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="shipsList" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFdA8rIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMPuVbIuEeaXg4d1gXIJ2A" label="~"/>
+      <cardinality xmi:id="_IMPuVLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IMyg4LIuEeaXg4d1gXIJ2A" sourceAnchor="419.0,40.0" targetAnchor="0.0,34.0" dashed="true" superClass="_IKgB4LIuEeaXg4d1gXIJ2A" subClass="_INwxQLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GEOR4LIuEeaXg4d1gXIJ2A"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_INS3MLIuEeaXg4d1gXIJ2A" sourceAnchor="0.0,36.0" targetAnchor="560.0,318.0" target="_IOr-ULIuEeaXg4d1gXIJ2A" source="_INwxQLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGjNI7IuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_INwKMrIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGj0MLIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_INvjILIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_I1m0YLIuEeaXg4d1gXIJ2A" position="-19.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_INwKMLIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGjNJLIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1mNULIuEeaXg4d1gXIJ2A" position="-29.0,2.0"/>
+      <visibility xmi:id="_INwKNLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_INwKM7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_INwKMbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="gameController" navigable="true">
+      <modelElement href="SpaceGame.uml#_GFy_MLIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1m0YbIuEeaXg4d1gXIJ2A" position="9.0,-47.0"/>
+      <visibility xmi:id="_INwKNrIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_INwKNbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IOJLwLIuEeaXg4d1gXIJ2A" source="_IOr-ULIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGj0MbIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IOqwM7IuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGkbQLIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IOqwMLIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IOqwMbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGj0MrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOrXQbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOrXQLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IOqwMrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="gameObserver" navigable="true">
+      <modelElement href="SpaceGame.uml#_GF33sbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOrXQ7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOrXQrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IPblMLIuEeaXg4d1gXIJ2A" sourceAnchor="0.0,31.0" targetAnchor="112.0,34.0" target="_IKgB4LIuEeaXg4d1gXIJ2A" source="_IPczVbIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGkbQbIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IPcMQ7IuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGkbQ7IuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IPcMQLIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_I1oCgLIuEeaXg4d1gXIJ2A" position="-29.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IPcMQbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGkbQrIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1nbcLIuEeaXg4d1gXIJ2A" position="-30.0,2.0"/>
+      <visibility xmi:id="_IPczUbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IPczULIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IPcMQrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="GameOverCommand" navigable="true">
+      <modelElement href="SpaceGame.uml#_GF67ALIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1oCgbIuEeaXg4d1gXIJ2A" position="7.0,-47.0"/>
+      <stereotypes xmi:id="_81N5wLIvEeaXg4d1gXIJ2A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_81PH4LIvEeaXg4d1gXIJ2A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_81QWALIvEeaXg4d1gXIJ2A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Bl6ooLIwEeaXg4d1gXIJ2A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Bl7PsLIwEeaXg4d1gXIJ2A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Bl72wLIwEeaXg4d1gXIJ2A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_IPczU7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IPczUrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IQNBQLIuEeaXg4d1gXIJ2A" sourceAnchor="560.0,70.0" targetAnchor="0.0,72.0" dashed="true" superClass="_IRNG0LIuEeaXg4d1gXIJ2A" subClass="_IOr-ULIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GEQHELIuEeaXg4d1gXIJ2A"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ISXkcLIuEeaXg4d1gXIJ2A" sourceAnchor="318.0,166.0" targetAnchor="0.0,45.0" dashed="true" superClass="_ITgM4LIuEeaXg4d1gXIJ2A" subClass="_IJ8BObIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GDvwwLIuEeaXg4d1gXIJ2A"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IUZkwLIuEeaXg4d1gXIJ2A" sourceAnchor="0.0,40.0" targetAnchor="360.0,35.0" dashed="true" superClass="_IVjbULIuEeaXg4d1gXIJ2A" subClass="_IJYAgLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GDggMbIuEeaXg4d1gXIJ2A"/>
+    <bendpoints xmi:id="_erNVELI2EeaXg4d1gXIJ2A" sourceX="-33" targetX="42" targetY="58"/>
+    <bendpoints xmi:id="_erNVEbI2EeaXg4d1gXIJ2A" sourceX="-33" sourceY="-58" targetX="42"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IVB24LIuEeaXg4d1gXIJ2A" sourceAnchor="0.0,31.0" targetAnchor="360.0,35.0" dashed="true" superClass="_IVjbULIuEeaXg4d1gXIJ2A" subClass="_ILCNYLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GECEoLIuEeaXg4d1gXIJ2A"/>
+    <bendpoints xmi:id="_erMuArI2EeaXg4d1gXIJ2A" sourceX="-30" targetX="42" targetY="-50"/>
+    <bendpoints xmi:id="_erMuA7I2EeaXg4d1gXIJ2A" sourceX="-30" sourceY="50" targetX="42"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IVOrMLIuEeaXg4d1gXIJ2A" sourceAnchor="282.0,0.0" targetAnchor="178.0,72.0" target="_IVjbULIuEeaXg4d1gXIJ2A" source="_IWdaQLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGkbRLIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IVi0Q7IuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGlCULIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IVi0QLIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_I1p3sLIuEeaXg4d1gXIJ2A" position="41.0,21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IVi0QbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGkbRbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1pQoLIuEeaXg4d1gXIJ2A" position="-17.0,-57.0"/>
+      <visibility xmi:id="_IVi0RbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IVi0RLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IVi0QrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="behaviour" navigable="true">
+      <modelElement href="SpaceGame.uml#_GF7iEbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1p3sbIuEeaXg4d1gXIJ2A" position="2.0,11.0"/>
+      <stereotypes xmi:id="_IVi0SLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF8wMLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IVi0R7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IVi0RrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IXq7MLIuEeaXg4d1gXIJ2A" sourceAnchor="157.0,0.0" targetAnchor="86.0,135.0" dashed="true" superClass="_IgccsLIuEeaXg4d1gXIJ2A" subClass="_IYjE8LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GEWNsLIuEeaXg4d1gXIJ2A"/>
+    <bendpoints xmi:id="_erMG8rI2EeaXg4d1gXIJ2A" sourceY="-33" targetX="536" targetY="91"/>
+    <bendpoints xmi:id="_erMG87I2EeaXg4d1gXIJ2A" sourceX="-536" sourceY="-34" targetY="90"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IZECULIuEeaXg4d1gXIJ2A" sourceAnchor="166.0,0.0" targetAnchor="86.0,135.0" dashed="true" superClass="_IgccsLIuEeaXg4d1gXIJ2A" subClass="_IZ698LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GEW0wLIuEeaXg4d1gXIJ2A"/>
+    <bendpoints xmi:id="_erLf4LI2EeaXg4d1gXIJ2A" sourceY="-30" targetX="-152" targetY="94"/>
+    <bendpoints xmi:id="_erLf4bI2EeaXg4d1gXIJ2A" sourceX="152" sourceY="-34" targetY="90"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IadJcLIuEeaXg4d1gXIJ2A" sourceAnchor="156.0,0.0" targetAnchor="86.0,135.0" dashed="true" superClass="_IgccsLIuEeaXg4d1gXIJ2A" subClass="_Ia-t4LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GEXb0LIuEeaXg4d1gXIJ2A"/>
+    <bendpoints xmi:id="_erMG8LI2EeaXg4d1gXIJ2A" sourceY="-33" targetX="212" targetY="91"/>
+    <bendpoints xmi:id="_erMG8bI2EeaXg4d1gXIJ2A" sourceX="-212" sourceY="-34" targetY="90"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IdXTgLIuEeaXg4d1gXIJ2A" sourceAnchor="0.0,73.0" targetAnchor="179.0,67.0" target="_IgccsLIuEeaXg4d1gXIJ2A" source="_IefU4LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGlpYLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_Y-dHQLIuEeaXg4d1gXIJ2A" visible="false"/>
+    <stereotypes xmi:id="_Iedfs7IuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGlpYrIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IedfsLIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_I1rF0LIuEeaXg4d1gXIJ2A" position="-18.0,-18.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IedfsbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGlpYbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1qewLIuEeaXg4d1gXIJ2A" position="-29.78947368421052,-46.5"/>
+      <visibility xmi:id="_Ieet0bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ieet0LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IedfsrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="dummyShip" navigable="true">
+      <modelElement href="SpaceGame.uml#_GGCPwbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_I1rF0bIuEeaXg4d1gXIJ2A" position="50.25,2.5"/>
+      <visibility xmi:id="_Ieet07IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_Ieet0rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IeLL0LIuEeaXg4d1gXIJ2A" source="_IefU4LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGlCUbIuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_IeeGw7IuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGlCU7IuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IeeGwLIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_IeeGwbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGlCUrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_Ieet1rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ieet1bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IeeGwrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="clonedShipList" navigable="true">
+      <modelElement href="SpaceGame.uml#_GGBosLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_Ieet2LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ieet17IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IfCugLIuEeaXg4d1gXIJ2A" sourceAnchor="126.0,0.0" targetAnchor="86.0,135.0" dashed="true" superClass="_IgccsLIuEeaXg4d1gXIJ2A" subClass="_If308LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GEZ4ELIuEeaXg4d1gXIJ2A"/>
+    <bendpoints xmi:id="_erMG9LI2EeaXg4d1gXIJ2A" sourceY="-33" targetX="856" targetY="91"/>
+    <bendpoints xmi:id="_erMG9bI2EeaXg4d1gXIJ2A" sourceX="-856" sourceY="-34" targetY="90"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IjslALIuEeaXg4d1gXIJ2A" source="_IkjgorIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGlpY7IuEeaXg4d1gXIJ2A"/>
+    <stereotypes xmi:id="_Iki5krIuEeaXg4d1gXIJ2A" name="Reference">
+      <modelElement href="SpaceGame.uml#_GGmQcLIuEeaXg4d1gXIJ2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IkiSgLIuEeaXg4d1gXIJ2A" text=""/>
+    <sourceRole xmi:id="_Iki5kLIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="">
+      <modelElement href="SpaceGame.uml#_GGlpZLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_Iki5lLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Iki5k7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Iki5kbIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="ships" navigable="true">
+      <modelElement href="SpaceGame.uml#_GGFTELIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_Iki5lrIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_Iki5lbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v3bDELIuEeaXg4d1gXIJ2A" sourceAnchor="125.0,54.0" targetAnchor="86.0,0.0" target="_IgccsLIuEeaXg4d1gXIJ2A" source="_IbzNQLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_v3U8cLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_v3bDEbIuEeaXg4d1gXIJ2A"/>
+    <nameVisual xmi:id="_v3bDErIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_v62KgLIuEeaXg4d1gXIJ2A" position="-18.0,-2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_v3bDE7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="shipFactory">
+      <modelElement href="SpaceGame.uml#_v3U8cbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_v61jcLIuEeaXg4d1gXIJ2A" position="2.0,24.0"/>
+      <visibility xmi:id="_v3bDFLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_v3bDFbIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v3bDFrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="ships" navigable="true">
+      <modelElement href="SpaceGame.uml#_v3VjgrIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_v62KgbIuEeaXg4d1gXIJ2A" position="2.0,-71.0"/>
+      <visibility xmi:id="_v3bDF7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_v3bDGLIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0bsfgLIuEeaXg4d1gXIJ2A" sourceAnchor="0.0,76.0" targetAnchor="117.0,0.0" target="_IbzNQLIuEeaXg4d1gXIJ2A" source="_IefU4LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_0bqqULIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_0bsfgbIuEeaXg4d1gXIJ2A"/>
+    <bendpoints xmi:id="_erMuAbI2EeaXg4d1gXIJ2A" sourceX="-205" targetX="1" targetY="-236"/>
+    <nameVisual xmi:id="_0bsfgrIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_0fNGgbIuEeaXg4d1gXIJ2A" position="2.0,108.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0bsfg7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="shipMoveHistory">
+      <modelElement href="SpaceGame.uml#_0bqqUbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_0fNGgLIuEeaXg4d1gXIJ2A" position="-163.0,1.0"/>
+      <visibility xmi:id="_0bsfhLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_0bsfhbIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0bsfhrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="shipFactory" navigable="true">
+      <modelElement href="SpaceGame.uml#_0brRYbIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_0fNGgrIuEeaXg4d1gXIJ2A" position="2.0,-78.0"/>
+      <visibility xmi:id="_0bsfh7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_0bsfiLIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3rbx8LIuEeaXg4d1gXIJ2A" sourceAnchor="0.0,254.0" targetAnchor="113.0,0.0" target="_IbzNQLIuEeaXg4d1gXIJ2A" source="_IOr-ULIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_3rZ8wLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_3rbx8bIuEeaXg4d1gXIJ2A"/>
+    <bendpoints xmi:id="_erMuALI2EeaXg4d1gXIJ2A" sourceX="-235" sourceY="2" targetX="1" targetY="-998"/>
+    <nameVisual xmi:id="_3rbx8rIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_3u_cQLIuEeaXg4d1gXIJ2A" position="-18.000000000000114,489.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3rbx87IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="gameRunner" navigable="true">
+      <modelElement href="SpaceGame.uml#_3raj0LIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_3u-1MLIuEeaXg4d1gXIJ2A" position="-132.0,-47.0"/>
+      <visibility xmi:id="_3rbx9LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_3rbx9bIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3rbx9rIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="shipFactory" navigable="true">
+      <modelElement href="SpaceGame.uml#_3raj07IuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_3vADULIuEeaXg4d1gXIJ2A" position="-78.00000000000017,-106.0"/>
+      <visibility xmi:id="_3rbx97IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_3rbx-LIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9RYGwLIuEeaXg4d1gXIJ2A" sourceAnchor="0.0,18.0" targetAnchor="318.0,274.0" target="_IJ8BObIuEeaXg4d1gXIJ2A" source="_Ih1j0LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_9RWRkLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_9RYGwbIuEeaXg4d1gXIJ2A"/>
+    <nameVisual xmi:id="_9RYGwrIuEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_9UiIcLIuEeaXg4d1gXIJ2A" position="0.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_9RYGw7IuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="spaceGameMain" navigable="true">
+      <modelElement href="SpaceGame.uml#_9RW4oLIuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_9UhhYLIuEeaXg4d1gXIJ2A" position="-168.0,-47.0"/>
+      <visibility xmi:id="_9RYGxLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_9RYGxbIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9RYGxrIuEeaXg4d1gXIJ2A" aggregationKind="NONE" name="board" navigable="true">
+      <modelElement href="SpaceGame.uml#_9RW4o7IuEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_9UiIcbIuEeaXg4d1gXIJ2A" position="40.0,2.0"/>
+      <visibility xmi:id="_9RYGx7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_9RYGyLIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BoClALIvEeaXg4d1gXIJ2A" sourceAnchor="0.0,32.0" targetAnchor="560.0,498.0" target="_IOr-ULIuEeaXg4d1gXIJ2A" source="_IVjbULIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_BoAIwLIvEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_BoClAbIvEeaXg4d1gXIJ2A"/>
+    <nameVisual xmi:id="_BoClArIvEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_BrKxgbIvEeaXg4d1gXIJ2A" position="39.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BoClA7IvEeaXg4d1gXIJ2A" aggregationKind="NONE" name="shipBattleBehaviour" navigable="true">
+      <modelElement href="SpaceGame.uml#_BoAv0LIvEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_BrKxgLIvEeaXg4d1gXIJ2A" position="-128.0,2.0"/>
+      <visibility xmi:id="_BoClBLIvEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_BoClBbIvEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BoClBrIvEeaXg4d1gXIJ2A" aggregationKind="NONE" name="gameRunner" navigable="true">
+      <modelElement href="SpaceGame.uml#_BoAv07IvEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_BrKxgrIvEeaXg4d1gXIJ2A" position="20.0,-47.0"/>
+      <visibility xmi:id="_BoClB7IvEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_BoClCLIvEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Xm0UALIwEeaXg4d1gXIJ2A" sourceAnchor="306.0,59.0" targetAnchor="0.0,430.0" target="_IJ8BObIuEeaXg4d1gXIJ2A" source="_IkjgorIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_Xmx3wLIwEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_Xm0UAbIwEeaXg4d1gXIJ2A"/>
+    <nameVisual xmi:id="_Xm0UArIwEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_XqNmQLIwEeaXg4d1gXIJ2A" position="12.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Xm0UA7IwEeaXg4d1gXIJ2A" aggregationKind="NONE" name="turnHistory1" navigable="true">
+      <modelElement href="SpaceGame.uml#_Xmye0LIwEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_XqM_MLIwEeaXg4d1gXIJ2A" position="16.0,-47.0"/>
+      <visibility xmi:id="_Xm0UBLIwEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Xm0UBbIwEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Xm0UBrIwEeaXg4d1gXIJ2A" aggregationKind="NONE" name="board" navigable="true">
+      <modelElement href="SpaceGame.uml#_Xmye07IwEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_XqNmQbIwEeaXg4d1gXIJ2A" position="-104.0,2.0"/>
+      <visibility xmi:id="_Xm0UB7IwEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Xm0UCLIwEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_KJzf0LIxEeaXg4d1gXIJ2A" sourceAnchor="349.0,76.0" targetAnchor="0.0,194.0" target="_IJ8BObIuEeaXg4d1gXIJ2A" source="_IefU4LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_KJyRsLIxEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_KJzf0bIxEeaXg4d1gXIJ2A"/>
+    <nameVisual xmi:id="_KJzf0rIxEeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_KNUt4LIxEeaXg4d1gXIJ2A" position="-37.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_KJzf07IxEeaXg4d1gXIJ2A" aggregationKind="NONE" name="shipMoveHistory">
+      <modelElement href="SpaceGame.uml#_KJyRsbIxEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_KNUG0LIxEeaXg4d1gXIJ2A" position="-6.0,-47.0"/>
+      <visibility xmi:id="_KJzf1LIxEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_KJzf1bIxEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_KJzf1rIxEeaXg4d1gXIJ2A" aggregationKind="NONE" name="board" navigable="true">
+      <modelElement href="SpaceGame.uml#_KJyRtLIxEeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_KNUt4bIxEeaXg4d1gXIJ2A" position="-63.0,2.0"/>
+      <visibility xmi:id="_KJzf17IxEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_KJzf2LIxEeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-cX2ELI1EeaXg4d1gXIJ2A" sourceAnchor="368.0,0.0" targetAnchor="75.0,73.0" target="_IPczVbIuEeaXg4d1gXIJ2A" source="_ILCNYLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_-cWn8LI1EeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_-cX2EbI1EeaXg4d1gXIJ2A" visible="false"/>
+    <nameVisual xmi:id="_-cX2ErI1EeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_-gJi0LI1EeaXg4d1gXIJ2A" position="22.0,19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-cX2E7I1EeaXg4d1gXIJ2A" aggregationKind="NONE" name="defensiveBehaviour" navigable="true">
+      <modelElement href="SpaceGame.uml#_-cWn8bI1EeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_-gI7wLI1EeaXg4d1gXIJ2A" position="7.0,-64.0"/>
+      <visibility xmi:id="_-cX2FLI1EeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_-cX2FbI1EeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-cX2FrI1EeaXg4d1gXIJ2A" aggregationKind="NONE" name="gameSwitch" navigable="true">
+      <modelElement href="SpaceGame.uml#_-cWn9LI1EeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_-gJi0bI1EeaXg4d1gXIJ2A" position="-82.0,10.0"/>
+      <visibility xmi:id="_-cX2F7I1EeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_-cX2GLI1EeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_GW-8MLI2EeaXg4d1gXIJ2A" sourceAnchor="383.0,15.0" targetAnchor="157.0,73.0" target="_IPczVbIuEeaXg4d1gXIJ2A" source="_IJYAgLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GW9HALI2EeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_GW-8MbI2EeaXg4d1gXIJ2A" visible="false"/>
+    <bendpoints xmi:id="_XDn4o7I2EeaXg4d1gXIJ2A" sourceX="65" sourceY="1" targetX="1" targetY="169"/>
+    <nameVisual xmi:id="_GW-8MrI2EeaXg4d1gXIJ2A" text="">
+      <visualProperties xmi:id="_GaaqsbI2EeaXg4d1gXIJ2A" position="-18.0,-106.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_GW-8M7I2EeaXg4d1gXIJ2A" aggregationKind="NONE" name="aggressiveBehaviour" navigable="true">
+      <modelElement href="SpaceGame.uml#_GW9uELI2EeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_GaaqsLI2EeaXg4d1gXIJ2A" position="83.0,-73.0"/>
+      <visibility xmi:id="_GW-8NLI2EeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_GW-8NbI2EeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_GW-8NrI2EeaXg4d1gXIJ2A" aggregationKind="NONE" name="gameSwitch" navigable="true">
+      <modelElement href="SpaceGame.uml#_GW9uE7I2EeaXg4d1gXIJ2A"/>
+      <visualProperties xmi:id="_GaaqsrI2EeaXg4d1gXIJ2A" position="-78.0,94.0"/>
+      <visibility xmi:id="_GW-8N7I2EeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_GW-8OLI2EeaXg4d1gXIJ2A" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IJxCELIuEeaXg4d1gXIJ2A" sourceConnectionVisual="_IJxCEbIuEeaXg4d1gXIJ2A" text="Launch the application." item="_IJ8BzbIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGUjoLIuEeaXg4d1gXIJ2A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_IJxpILIuEeaXg4d1gXIJ2A" sourceConnectionVisual="_IJxpIbIuEeaXg4d1gXIJ2A" text="Create the frame." item="_IJ8B07IuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GGUjobIuEeaXg4d1gXIJ2A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IZ698LIuEeaXg4d1gXIJ2A" name="ShipBattleshooter" generalizations="_IZECULIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_sXMLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IZ698bIuEeaXg4d1gXIJ2A" position="34.0,2336.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IZ698rIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IZ6987IuEeaXg4d1gXIJ2A" name="shipType">
+      <modelElement href="SpaceGame.uml#_GF-lYLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ699LIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF_McLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ699bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ699rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IZ6997IuEeaXg4d1gXIJ2A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IZ69-LIuEeaXg4d1gXIJ2A" name="x">
+      <modelElement href="SpaceGame.uml#_GF_McbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ69-bIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF_McrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ69-rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ69-7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IZ69_LIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IZ69_bIuEeaXg4d1gXIJ2A" name="y">
+      <modelElement href="SpaceGame.uml#_GF_Mc7IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ69_rIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF_zgLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ69_7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ6-ALIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IZ6-AbIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IZ6-ArIuEeaXg4d1gXIJ2A" name="ShipBattleshooter">
+      <modelElement href="SpaceGame.uml#_F_s-QLIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_IZ6-A7IuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_IZ6-BLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ6-BbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IZ6-BrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_s-RLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IZ6-B7IuEeaXg4d1gXIJ2A" name="ShipBattleshooter">
+          <modelElement href="SpaceGame.uml#_F_sXMLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IZ6-CLIuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_F_s-QbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IZ6-CbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IZ6-CrIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IZ6-C7IuEeaXg4d1gXIJ2A" name="type">
+      <modelElement href="SpaceGame.uml#_F_s-RbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ6-DLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_tlUbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IZ6-DbIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_tlUrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ6-DrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ6-D7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IZ6-ELIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_tlULIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IZ6-EbIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IZ6-ErIuEeaXg4d1gXIJ2A" name="getX">
+      <modelElement href="SpaceGame.uml#_F_tlVLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ6-E7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_uMYbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IZ6-FLIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_uMYrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ6-FbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ6-FrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IZ6-F7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_uMYLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IZ6-GLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IZ6-GbIuEeaXg4d1gXIJ2A" name="getY">
+      <modelElement href="SpaceGame.uml#_F_uzcbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ6-GrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_uzc7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IZ6-G7IuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_uzdLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ6-HLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ6-HbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IZ6-HrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_uzcrIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IZ6-H7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IZ6-ILIuEeaXg4d1gXIJ2A" name="setX">
+      <modelElement href="SpaceGame.uml#_F_wBkLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ6-IbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_wBkrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IZ6-IrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_wBk7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ6-I7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ6-JLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IZ6-JbIuEeaXg4d1gXIJ2A" name="xCoord">
+        <modelElement href="SpaceGame.uml#_F_wBkbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IZ6-JrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IZ6-J7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IZ6-KLIuEeaXg4d1gXIJ2A" name="setY">
+      <modelElement href="SpaceGame.uml#_F_wooLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ6-KbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_woorIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IZ6-KrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_woo7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ6-K7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ6-LLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IZ6-LbIuEeaXg4d1gXIJ2A" name="yCoord">
+        <modelElement href="SpaceGame.uml#_F_woobIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IZ6-LrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IZ6-L7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IZ6-MLIuEeaXg4d1gXIJ2A" name="setType">
+      <modelElement href="SpaceGame.uml#_F_xPsLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IZ6-MbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_xPsrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IZ6-MrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_xPs7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IZ6-M7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IZ6-NLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IZ6-NbIuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_F_xPsbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IZ6-NrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IZ6-N7IuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ia-t4LIuEeaXg4d1gXIJ2A" name="ShipBattlestar" generalizations="_IadJcLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_yd0LIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_Ia-t4bIuEeaXg4d1gXIJ2A" position="408.0,2337.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ia-t4rIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_Ia-t47IuEeaXg4d1gXIJ2A" name="shipType">
+      <modelElement href="SpaceGame.uml#_GGAakLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-t5LIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGAakbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-t5bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-t5rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ia-t57IuEeaXg4d1gXIJ2A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ia-t6LIuEeaXg4d1gXIJ2A" name="x">
+      <modelElement href="SpaceGame.uml#_GGAakrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-t6bIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGBBoLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-t6rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-t67IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ia-t7LIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ia-t7bIuEeaXg4d1gXIJ2A" name="y">
+      <modelElement href="SpaceGame.uml#_GGBBobIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-t7rIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGBBorIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-t77IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-t8LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ia-t8bIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ia-t8rIuEeaXg4d1gXIJ2A" name="ShipBattlestar">
+      <modelElement href="SpaceGame.uml#_F_zE4LIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_Ia-t87IuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_Ia-t9LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-t9bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ia-t9rIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_zE5LIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_Ia-t97IuEeaXg4d1gXIJ2A" name="ShipBattlestar">
+          <modelElement href="SpaceGame.uml#_F_yd0LIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ia-t-LIuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_F_zE4bIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_Ia-t-bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ia-t-rIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ia-t-7IuEeaXg4d1gXIJ2A" name="type">
+      <modelElement href="SpaceGame.uml#_F_zr8LIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-t_LIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_zr8rIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ia-t_bIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_zr87IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-t_rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-t_7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ia-uALIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_zr8bIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_Ia-uAbIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ia-uArIuEeaXg4d1gXIJ2A" name="getX">
+      <modelElement href="SpaceGame.uml#_F_0TAbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-uA7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_0TA7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ia-uBLIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_0TBLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-uBbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-uBrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ia-uB7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_0TArIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_Ia-uCLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ia-uCbIuEeaXg4d1gXIJ2A" name="getY">
+      <modelElement href="SpaceGame.uml#_F_06ELIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-uCrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_06ErIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ia-uC7IuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_06E7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-uDLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-uDbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ia-uDrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_06EbIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_Ia-uD7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ia-uELIuEeaXg4d1gXIJ2A" name="setX">
+      <modelElement href="SpaceGame.uml#_F_1hILIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-uEbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_2IMbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ia-uErIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_2IMrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-uE7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-uFLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ia-uFbIuEeaXg4d1gXIJ2A" name="xCoord">
+        <modelElement href="SpaceGame.uml#_F_2IMLIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_Ia-uFrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ia-uF7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ia-uGLIuEeaXg4d1gXIJ2A" name="setY">
+      <modelElement href="SpaceGame.uml#_F_2vQLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-uGbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_2vQrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ia-uGrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_3WULIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-uG7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-uHLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ia-uHbIuEeaXg4d1gXIJ2A" name="yCoord">
+        <modelElement href="SpaceGame.uml#_F_2vQbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_Ia-uHrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ia-uH7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ia-uILIuEeaXg4d1gXIJ2A" name="setType">
+      <modelElement href="SpaceGame.uml#_F_3WUrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_Ia-uIbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_3WVLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ia-uIrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_39YLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ia-uI7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ia-uJLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ia-uJbIuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_F_3WU7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_Ia-uJrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ia-uJ7IuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IYjE8LIuEeaXg4d1gXIJ2A" name="ShipBattlecruiser" generalizations="_IXq7MLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_mQkLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IYjE8bIuEeaXg4d1gXIJ2A" position="731.0,2337.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IYjE8rIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IYjE87IuEeaXg4d1gXIJ2A" name="shipType">
+      <modelElement href="SpaceGame.uml#_GF8wMbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjE9LIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF9XQLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjE9bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjE9rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IYjE97IuEeaXg4d1gXIJ2A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IYjE-LIuEeaXg4d1gXIJ2A" name="x">
+      <modelElement href="SpaceGame.uml#_GF9XQbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjE-bIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF9-ULIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjE-rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjE-7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IYjE_LIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IYjE_bIuEeaXg4d1gXIJ2A" name="y">
+      <modelElement href="SpaceGame.uml#_GF9-UbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjE_rIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF9-UrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjE_7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjFALIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IYjFAbIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IYjFArIuEeaXg4d1gXIJ2A" name="ShipBattlecruiser">
+      <modelElement href="SpaceGame.uml#_F_m3oLIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_IYjFA7IuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_IYjFBLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjFBbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IYjFBrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_m3pLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IYjFB7IuEeaXg4d1gXIJ2A" name="ShipBattlecruiser">
+          <modelElement href="SpaceGame.uml#_F_mQkLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IYjFCLIuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_F_m3obIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IYjFCbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IYjFCrIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IYjFC7IuEeaXg4d1gXIJ2A" name="type">
+      <modelElement href="SpaceGame.uml#_F_nesLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjFDLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_nesrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IYjFDbIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_nes7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjFDrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjFD7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IYjFELIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_nesbIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IYjFEbIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IYjFErIuEeaXg4d1gXIJ2A" name="getX">
+      <modelElement href="SpaceGame.uml#_F_oFwbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjFE7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_oFw7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IYjFFLIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_oFxLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjFFbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjFFrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IYjFF7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_oFwrIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IYjFGLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IYjFGbIuEeaXg4d1gXIJ2A" name="getY">
+      <modelElement href="SpaceGame.uml#_F_oFxrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjFGrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_os0bIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IYjFG7IuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_os0rIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjFHLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjFHbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IYjFHrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_os0LIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IYjFH7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IYjFILIuEeaXg4d1gXIJ2A" name="setX">
+      <modelElement href="SpaceGame.uml#_F_os1LIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjFIbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_p68LIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IYjFIrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_p68bIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjFI7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjFJLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IYjFJbIuEeaXg4d1gXIJ2A" name="xCoord">
+        <modelElement href="SpaceGame.uml#_F_pT4LIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IYjFJrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IYjFJ7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IYjFKLIuEeaXg4d1gXIJ2A" name="setY">
+      <modelElement href="SpaceGame.uml#_F_p687IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjFKbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_qiALIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IYjFKrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_qiAbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjFK7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjFLLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IYjFLbIuEeaXg4d1gXIJ2A" name="yCoord">
+        <modelElement href="SpaceGame.uml#_F_p69LIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IYjFLrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IYjFL7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IYjFMLIuEeaXg4d1gXIJ2A" name="setType">
+      <modelElement href="SpaceGame.uml#_F_qiA7IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IYjFMbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_rJEbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IYjFMrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_rJErIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IYjFM7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IYjFNLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IYjFNbIuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_F_rJELIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IYjFNrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IYjFN7IuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_If308LIuEeaXg4d1gXIJ2A" name="ShipPlayer" generalizations="_IfCugLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GAJDILIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_If308bIuEeaXg4d1gXIJ2A" position="1082.0,2337.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_If308rIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_If3087IuEeaXg4d1gXIJ2A" name="shipType">
+      <modelElement href="SpaceGame.uml#_GGC20bIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If309LIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGC20rIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If309bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If309rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_If3097IuEeaXg4d1gXIJ2A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_If30-LIuEeaXg4d1gXIJ2A" name="x">
+      <modelElement href="SpaceGame.uml#_GGDd4LIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If30-bIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGEE8LIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If30-rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If30-7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_If30_LIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_If30_bIuEeaXg4d1gXIJ2A" name="y">
+      <modelElement href="SpaceGame.uml#_GGEE8bIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If30_rIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGEsALIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If30_7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If31ALIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_If31AbIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_If31ArIuEeaXg4d1gXIJ2A" name="ShipPlayer">
+      <modelElement href="SpaceGame.uml#_GAJqMLIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_If31A7IuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_If31BLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If31BbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_If31BrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GAK4ULIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_If31B7IuEeaXg4d1gXIJ2A" name="ShipPlayer">
+          <modelElement href="SpaceGame.uml#_GAJDILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_If31CLIuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_GAJqMbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_If31CbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_If31CrIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_If31C7IuEeaXg4d1gXIJ2A" name="type">
+      <modelElement href="SpaceGame.uml#_GAK4UbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If31DLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GAK4U7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_If31DbIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GALfYLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If31DrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If31D7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_If31ELIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GAK4UrIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_If31EbIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_If31ErIuEeaXg4d1gXIJ2A" name="getX">
+      <modelElement href="SpaceGame.uml#_GALfYrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If31E7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GALfZLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_If31FLIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GAMGcLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If31FbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If31FrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_If31F7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GALfY7IuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_If31GLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_If31GbIuEeaXg4d1gXIJ2A" name="getY">
+      <modelElement href="SpaceGame.uml#_GAMGcrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If31GrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GAMtgLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_If31G7IuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GAMtgbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If31HLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If31HbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_If31HrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GAMGc7IuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_If31H7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_If31ILIuEeaXg4d1gXIJ2A" name="setX">
+      <modelElement href="SpaceGame.uml#_GANUkLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If31IbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GANUkrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_If31IrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GAN7oLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If31I7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If31JLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_If31JbIuEeaXg4d1gXIJ2A" name="xCoord">
+        <modelElement href="SpaceGame.uml#_GANUkbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_If31JrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_If31J7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_If31KLIuEeaXg4d1gXIJ2A" name="setY">
+      <modelElement href="SpaceGame.uml#_GAN7orIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If31KbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GAOisLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_If31KrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GAOisbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If31K7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If31LLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_If31LbIuEeaXg4d1gXIJ2A" name="yCoord">
+        <modelElement href="SpaceGame.uml#_GAN7o7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_If31LrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_If31L7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_If31MLIuEeaXg4d1gXIJ2A" name="setType">
+      <modelElement href="SpaceGame.uml#_GAOis7IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_If31MbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GAPJwLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_If31MrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GAPw0LIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_If31M7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_If31NLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_If31NbIuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_GAOitLIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_If31NrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_If31N7IuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IJ8BObIuEeaXg4d1gXIJ2A" name="Board" associationsIn="_IJi_oLIuEeaXg4d1gXIJ2A _9RYGwLIuEeaXg4d1gXIJ2A _Xm0UALIwEeaXg4d1gXIJ2A _KJzf0LIxEeaXg4d1gXIJ2A" associationsOut="_IJi_oLIuEeaXg4d1gXIJ2A _IJvz8LIuEeaXg4d1gXIJ2A _IJvz8bIuEeaXg4d1gXIJ2A _IJvz8rIuEeaXg4d1gXIJ2A _IJ3IsLIuEeaXg4d1gXIJ2A _IJ3vwLIuEeaXg4d1gXIJ2A _IJ3vybIuEeaXg4d1gXIJ2A _IJ4W0LIuEeaXg4d1gXIJ2A _IJ494LIuEeaXg4d1gXIJ2A _IJ5k8LIuEeaXg4d1gXIJ2A _IJ5k-bIuEeaXg4d1gXIJ2A _IJ6MALIuEeaXg4d1gXIJ2A _IJ6MCbIuEeaXg4d1gXIJ2A _IJ6zELIuEeaXg4d1gXIJ2A _IJ7aILIuEeaXg4d1gXIJ2A _IJ8BMLIuEeaXg4d1gXIJ2A" generalizations="_ILgugLIuEeaXg4d1gXIJ2A _ISXkcLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IJ8BOrIuEeaXg4d1gXIJ2A" position="994.0,1454.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IJ8BO7IuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IJ8BPLIuEeaXg4d1gXIJ2A" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="SpaceGame.uml#_GFVFILIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ8BPbIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BPrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BP7IuEeaXg4d1gXIJ2A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BQLIuEeaXg4d1gXIJ2A" name="contentPane">
+      <modelElement href="SpaceGame.uml#_GFVsMbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BQbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFWTQLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BQrIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BQ7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BRLIuEeaXg4d1gXIJ2A" name="JPanel">
+        <modelElement href="SpaceGame.uml#_GDjjgbIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BRbIuEeaXg4d1gXIJ2A" defaultValue="new ButtonGroup()" name="buttonGroup">
+      <modelElement href="SpaceGame.uml#_GFWTQbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BRrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFWTQ7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BR7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BSLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BSbIuEeaXg4d1gXIJ2A" name="ButtonGroup">
+        <modelElement href="SpaceGame.uml#_GDtUgLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BSrIuEeaXg4d1gXIJ2A" name="btnNextTurn">
+      <modelElement href="SpaceGame.uml#_GFWTRLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BS7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFW6ULIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BTLIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BTbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BTrIuEeaXg4d1gXIJ2A" name="JButton">
+        <modelElement href="SpaceGame.uml#_GDpqIbIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BT7IuEeaXg4d1gXIJ2A" name="btnUndoMove">
+      <modelElement href="SpaceGame.uml#_GFW6UbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BULIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFW6UrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BUbIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BUrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BU7IuEeaXg4d1gXIJ2A" name="JButton">
+        <modelElement href="SpaceGame.uml#_GDpqIbIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BVLIuEeaXg4d1gXIJ2A" name="rdbtnDefensiveMode">
+      <modelElement href="SpaceGame.uml#_GFW6U7IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BVbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFW6VLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BVrIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BV7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BWLIuEeaXg4d1gXIJ2A" name="JRadioButton">
+        <modelElement href="SpaceGame.uml#_GDrfUbIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BWbIuEeaXg4d1gXIJ2A" name="rdbtnOffensiveMode">
+      <modelElement href="SpaceGame.uml#_GFXhYLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BWrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFXhYbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BW7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BXLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BXbIuEeaXg4d1gXIJ2A" name="JRadioButton">
+        <modelElement href="SpaceGame.uml#_GDrfUbIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BXrIuEeaXg4d1gXIJ2A" name="turnCounter">
+      <modelElement href="SpaceGame.uml#_GFXhYrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BX7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFXhY7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BYLIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BYbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BYrIuEeaXg4d1gXIJ2A" name="JTextField">
+        <modelElement href="SpaceGame.uml#_GDtUgrIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BY7IuEeaXg4d1gXIJ2A" name="gameScore">
+      <modelElement href="SpaceGame.uml#_GFYIcLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BZLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFYIcbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BZbIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BZrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BZ7IuEeaXg4d1gXIJ2A" name="JTextField">
+        <modelElement href="SpaceGame.uml#_GDtUgrIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BaLIuEeaXg4d1gXIJ2A" name="gameHistory">
+      <modelElement href="SpaceGame.uml#_GFYIcrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BabIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFYIc7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BarIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8Ba7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BbLIuEeaXg4d1gXIJ2A" name="JTextArea">
+        <modelElement href="SpaceGame.uml#_GDt7kbIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BbbIuEeaXg4d1gXIJ2A" name="observerName">
+      <modelElement href="SpaceGame.uml#_GFYIdLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BbrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFYvgLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJ8Bb7IuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GFYvgbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BcLIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BcbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BcrIuEeaXg4d1gXIJ2A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8Bc7IuEeaXg4d1gXIJ2A" name="shipType">
+      <modelElement href="SpaceGame.uml#_GFYvhLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BdLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFZWkLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BdbIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BdrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8Bd7IuEeaXg4d1gXIJ2A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BeLIuEeaXg4d1gXIJ2A" name="updatedValue">
+      <modelElement href="SpaceGame.uml#_GFZWkbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BebIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFZWkrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BerIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8Be7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BfLIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BfbIuEeaXg4d1gXIJ2A" name="frame">
+      <modelElement href="SpaceGame.uml#_GFZWk7IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BfrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFZ9oLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8Bf7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BgLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BgbIuEeaXg4d1gXIJ2A" name="Board">
+        <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BgrIuEeaXg4d1gXIJ2A" defaultValue="new ArrayList&lt;>()" name="shipsList">
+      <modelElement href="SpaceGame.uml#_GFZ9obIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8Bg7IuEeaXg4d1gXIJ2A" name="Generics">
+        <modelElement href="SpaceGame.uml#_GFZ9orIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJ8BhLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFaksLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BhbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8BhrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8Bh7IuEeaXg4d1gXIJ2A" name="ArrayList">
+        <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BiLIuEeaXg4d1gXIJ2A" defaultValue="new GameCanvas(shipsList)" name="canvas">
+      <modelElement href="SpaceGame.uml#_GFaksbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BibIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFaks7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BirIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8Bi7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BjLIuEeaXg4d1gXIJ2A" name="GameCanvas">
+        <modelElement href="SpaceGame.uml#_F_Mn8rIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BjbIuEeaXg4d1gXIJ2A" defaultValue="new GameRunner(shipsList)" name="game">
+      <modelElement href="SpaceGame.uml#_GFaktLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BjrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFbLwLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8Bj7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BkLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BkbIuEeaXg4d1gXIJ2A" name="GameRunner">
+        <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BkrIuEeaXg4d1gXIJ2A" defaultValue="new ShipBattleBehaviourContext()" name="battle">
+      <modelElement href="SpaceGame.uml#_GFbLwbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8Bk7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFbLw7IuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BlLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8BlbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BlrIuEeaXg4d1gXIJ2A" name="ShipBattleBehaviourContext">
+        <modelElement href="SpaceGame.uml#_F_lCcLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8Bl7IuEeaXg4d1gXIJ2A" defaultValue="new ArrayList&lt;>()" name="turnHistory">
+      <modelElement href="SpaceGame.uml#_GFbLxLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BmLIuEeaXg4d1gXIJ2A" name="Generics">
+        <modelElement href="SpaceGame.uml#_GFby0LIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJ8BmbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFby0rIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BmrIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8Bm7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BnLIuEeaXg4d1gXIJ2A" name="ArrayList">
+        <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IJ8BnbIuEeaXg4d1gXIJ2A" defaultValue="new Runnable()&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;public void run() &#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;boolean flag=false;&#xD;&#xA;&#x9;&#x9;&#x9;//run this thread while game is not finished:&#xD;&#xA;&#x9;&#x9;&#x9;while(flag==false)&#xD;&#xA;&#x9;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;boolean gameOverFlag = game.getFlagState();&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;Thread.currentThread().getState();&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;if(gameOverFlag==true)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;btnNextTurn.setEnabled(false);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;btnUndoMove.setEnabled(false);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;JOptionPane.showMessageDialog(null, &quot;The ship was destroyed by overwhelming alien forces!!!&quot;);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;flag = true;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Thread.currentThread().interrupt();&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}" name="r">
+      <modelElement href="SpaceGame.uml#_GFby07IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BnrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFcZ4bIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8Bn7IuEeaXg4d1gXIJ2A" label="~"/>
+      <cardinality xmi:id="_IJ8BoLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IJ8BobIuEeaXg4d1gXIJ2A" name="Runnable">
+        <modelElement href="SpaceGame.uml#_GEia8bIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9RYt0LIuEeaXg4d1gXIJ2A" name="spaceGameMain">
+      <modelElement href="SpaceGame.uml#_9RW4oLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_9RYt0bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_9RYt0rIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_9RYt07IuEeaXg4d1gXIJ2A" name="SpaceGameMain">
+        <modelElement href="SpaceGame.uml#_GATbMbIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Xm07ELIwEeaXg4d1gXIJ2A" name="turnHistory1">
+      <modelElement href="SpaceGame.uml#_Xmye0LIwEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_Xm07EbIwEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Xm07ErIwEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_Xm07E7IwEeaXg4d1gXIJ2A" name="TurnHistory">
+        <modelElement href="SpaceGame.uml#_GAUpULIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IJ8BorIuEeaXg4d1gXIJ2A" name="setObsName">
+      <modelElement href="SpaceGame.uml#_F-oAMLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ8Bo7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8BpLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IJ8BpbIuEeaXg4d1gXIJ2A" name="observerName">
+        <modelElement href="SpaceGame.uml#_F-oAMbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IJ8BprIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ8Bp7IuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IJ8BqLIuEeaXg4d1gXIJ2A" name="update">
+      <modelElement href="SpaceGame.uml#_F-onQLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BqbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F-pOULIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJ8BqrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F-qccLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8Bq7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8BrLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IJ8BrbIuEeaXg4d1gXIJ2A" name="shipSpawned">
+        <modelElement href="SpaceGame.uml#_F-onQbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IJ8BrrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ8Br7IuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IJ8BsLIuEeaXg4d1gXIJ2A" name="update">
+      <modelElement href="SpaceGame.uml#_F-qccrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BsbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F-rqkLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJ8BsrIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F-sRoLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8Bs7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8BtLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IJ8BtbIuEeaXg4d1gXIJ2A" name="latestUpdate">
+        <modelElement href="SpaceGame.uml#_F-qcc7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IJ8BtrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ8Bt7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IJ8BuLIuEeaXg4d1gXIJ2A" name="display">
+      <modelElement href="SpaceGame.uml#_F-9-cbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BubIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F-_MkLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJ8BurIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F-_MkbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8Bu7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8BvLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IJ8BvbIuEeaXg4d1gXIJ2A" name="display">
+      <modelElement href="SpaceGame.uml#_F-_zoLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BvrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F-_zorIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJ8Bv7IuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_AasLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8BwLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8BwbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IJ8BwrIuEeaXg4d1gXIJ2A" name="updatedValue">
+        <modelElement href="SpaceGame.uml#_F-_zobIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IJ8Bw7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ8BxLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IJ8BxbIuEeaXg4d1gXIJ2A" name="display">
+      <modelElement href="SpaceGame.uml#_F_AasrIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJ8BxrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_BBwLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJ8Bx7IuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_BBwbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJ8ByLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8BybIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IJ8ByrIuEeaXg4d1gXIJ2A" name="shipType">
+        <modelElement href="SpaceGame.uml#_F_Aas7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IJ8By7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ8BzLIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IJ8BzbIuEeaXg4d1gXIJ2A" comments="_IJxCELIuEeaXg4d1gXIJ2A" targetConnectionVisual="_IJxCEbIuEeaXg4d1gXIJ2A" name="runPainter">
+      <modelElement href="SpaceGame.uml#_F_BBw7IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ8BzrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8Bz7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IJ8B0LIuEeaXg4d1gXIJ2A" name="startGame">
+      <modelElement href="SpaceGame.uml#_F_Bo0LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ8B0bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8B0rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IJ8B07IuEeaXg4d1gXIJ2A" comments="_IJxpILIuEeaXg4d1gXIJ2A" targetConnectionVisual="_IJxpIbIuEeaXg4d1gXIJ2A" name="Board">
+      <modelElement href="SpaceGame.uml#_F_Bo0bIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_IJ8B1LIuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_IJ8B1bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJ8B1rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IJ8B17IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_CP4bIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IJ8B2LIuEeaXg4d1gXIJ2A" name="Board">
+          <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IJ8B2bIuEeaXg4d1gXIJ2A" name="setGameRunner">
+      <modelElement href="SpaceGame.uml#_GDw-4LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IJ8B2rIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IJ8B27IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IJ8B3LIuEeaXg4d1gXIJ2A" name="gameRunner">
+        <modelElement href="SpaceGame.uml#_GDw-4bIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IJ8B3bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IJ8B3rIuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IWdaQLIuEeaXg4d1gXIJ2A" name="ShipBattleBehaviourContext" associationsIn="_IJ7aILIuEeaXg4d1gXIJ2A" associationsOut="_IVOrMLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_lCcLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IWdaQbIuEeaXg4d1gXIJ2A" position="1174.0,1245.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IWdaQrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IWdaQ7IuEeaXg4d1gXIJ2A" name="behaviour">
+      <modelElement href="SpaceGame.uml#_GF7iEbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IWdaRLIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IWdaRbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IWdaRrIuEeaXg4d1gXIJ2A" name="ShipBattleBehaviour">
+        <modelElement href="SpaceGame.uml#_F_j0ULIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IWdaR7IuEeaXg4d1gXIJ2A" name="setShipBattleBehaviour">
+      <modelElement href="SpaceGame.uml#_GEVmoLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IWdaSLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IWdaSbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IWdaSrIuEeaXg4d1gXIJ2A" name="behaviour">
+        <modelElement href="SpaceGame.uml#_GEVmobIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IWdaS7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IWdaTLIuEeaXg4d1gXIJ2A" name="ShipBattleBehaviour">
+          <modelElement href="SpaceGame.uml#_F_j0ULIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IWdaTbIuEeaXg4d1gXIJ2A" name="useShipBattleBehaviour">
+      <modelElement href="SpaceGame.uml#_GFJe8bIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IWdaTrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IWdaT7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IWdaULIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GFJe8rIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IWdaUbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IWdaUrIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IWdaU7IuEeaXg4d1gXIJ2A" name="game">
+        <modelElement href="SpaceGame.uml#_GFKGALIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IWdaVLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IWdaVbIuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IkjgorIuEeaXg4d1gXIJ2A" name="TurnHistory" associationsOut="_IjslALIuEeaXg4d1gXIJ2A _Xm0UALIwEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GAUpULIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_Ikjgo7IuEeaXg4d1gXIJ2A" position="558.0,1825.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IkjgpLIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IkjgpbIuEeaXg4d1gXIJ2A" defaultValue="new ArrayList&lt;>()" name="ships">
+      <modelElement href="SpaceGame.uml#_GGFTELIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IkjgprIuEeaXg4d1gXIJ2A" name="Generics">
+        <modelElement href="SpaceGame.uml#_GGFTEbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ikjgp7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGF6IbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IkjgqLIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IkjgqbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IkjgqrIuEeaXg4d1gXIJ2A" name="ArrayList">
+        <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Xm2JMLIwEeaXg4d1gXIJ2A" name="board">
+      <modelElement href="SpaceGame.uml#_Xmye07IwEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_Xm2JMbIwEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Xm2JMrIwEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_Xm2JM7IwEeaXg4d1gXIJ2A" name="Board">
+        <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ikjgq7IuEeaXg4d1gXIJ2A" name="getClonedList">
+      <modelElement href="SpaceGame.uml#_GAVQYLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IkjgrLIuEeaXg4d1gXIJ2A" name="Generics">
+        <modelElement href="SpaceGame.uml#_GAV3cLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IkjgrbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IkjgrrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ikjgr7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GFRawbIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IkjgsLIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IkjgsbIuEeaXg4d1gXIJ2A" name="TurnHistory">
+      <modelElement href="SpaceGame.uml#_GFNwYLIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_IkjgsrIuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_Ikjgs7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IkjgtLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IkjgtbIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GFNwZLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IkjgtrIuEeaXg4d1gXIJ2A" name="TurnHistory">
+          <modelElement href="SpaceGame.uml#_GAUpULIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ikjgt7IuEeaXg4d1gXIJ2A" name="shipList">
+        <modelElement href="SpaceGame.uml#_GFNwYbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IkjguLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IkjgubIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IkjgurIuEeaXg4d1gXIJ2A" name="setClonedList">
+      <modelElement href="SpaceGame.uml#_GFRawrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_Ikjgu7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IkjgvLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IkjgvbIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GFRaw7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IkjgvrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ikjgv7IuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_IgccsLIuEeaXg4d1gXIJ2A" name="Ships" associationsIn="_IdXTgLIuEeaXg4d1gXIJ2A _v3bDELIuEeaXg4d1gXIJ2A" subclassedBy="_IXq7MLIuEeaXg4d1gXIJ2A _IZECULIuEeaXg4d1gXIJ2A _IadJcLIuEeaXg4d1gXIJ2A _IfCugLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GAQ-8LIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IgccsbIuEeaXg4d1gXIJ2A" position="266.0,2077.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IgccsrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_Igccs7IuEeaXg4d1gXIJ2A" name="x">
+      <modelElement href="SpaceGame.uml#_GAS0ILIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IgcctLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IgcctbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IgcctrIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Igcct7IuEeaXg4d1gXIJ2A" name="y">
+      <modelElement href="SpaceGame.uml#_GATbMLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IgccuLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IgccubIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IgccurIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Igccu7IuEeaXg4d1gXIJ2A" name="type">
+      <modelElement href="SpaceGame.uml#_GAQ-8bIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IgccvLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IgccvbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IgccvrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GARmALIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_Igccv7IuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IgccwLIuEeaXg4d1gXIJ2A" name="setType">
+      <modelElement href="SpaceGame.uml#_GARmAbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IgccwbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IgccwrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Igccw7IuEeaXg4d1gXIJ2A" name="type">
+        <modelElement href="SpaceGame.uml#_GARmArIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IgccxLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IgccxbIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IbzNQLIuEeaXg4d1gXIJ2A" name="ShipFactory" associationsIn="_0bsfgLIuEeaXg4d1gXIJ2A _3rbx8LIuEeaXg4d1gXIJ2A" associationsOut="_v3bDELIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_4kcLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IbzNQbIuEeaXg4d1gXIJ2A" position="227.0,1884.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IbzNQrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_v3bqILIuEeaXg4d1gXIJ2A" name="ships">
+      <modelElement href="SpaceGame.uml#_v3VjgrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_v3bqIbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_v3bqIrIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_v3bqI7IuEeaXg4d1gXIJ2A" name="Ships">
+        <modelElement href="SpaceGame.uml#_GAQ-8LIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rbx-bIuEeaXg4d1gXIJ2A" name="gameRunner">
+      <modelElement href="SpaceGame.uml#_3raj0LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_3rbx-rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_3rbx-7IuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_3rbx_LIuEeaXg4d1gXIJ2A" name="GameRunner">
+        <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IbzNQ7IuEeaXg4d1gXIJ2A" name="getShip">
+      <modelElement href="SpaceGame.uml#_F_5LgLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IbzNRLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IbzNRbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IbzNRrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GEYC4LIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IbzNR7IuEeaXg4d1gXIJ2A" name="Ships">
+          <modelElement href="SpaceGame.uml#_GAQ-8LIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IbzNSLIuEeaXg4d1gXIJ2A" name="shipType">
+        <modelElement href="SpaceGame.uml#_F_5LgbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IbzNSbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IbzNSrIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IOr-ULIuEeaXg4d1gXIJ2A" name="GameRunner" associationsIn="_IJvz8bIuEeaXg4d1gXIJ2A _INS3MLIuEeaXg4d1gXIJ2A _BoClALIvEeaXg4d1gXIJ2A" associationsOut="_IOJLwLIuEeaXg4d1gXIJ2A _3rbx8LIuEeaXg4d1gXIJ2A" generalizations="_IQNBQLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IOr-UbIuEeaXg4d1gXIJ2A" position="576.0,630.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IOr-UrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IOr-U7IuEeaXg4d1gXIJ2A" name="pStartX">
+      <modelElement href="SpaceGame.uml#_GFzmQLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-VLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF2CgLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-VbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-VrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IOr-V7IuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IOr-WLIuEeaXg4d1gXIJ2A" name="pStartY">
+      <modelElement href="SpaceGame.uml#_GF2pkLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-WbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF3QoLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-WrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-W7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IOr-XLIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IOr-XbIuEeaXg4d1gXIJ2A" defaultValue="false" name="gameOverFlag">
+      <modelElement href="SpaceGame.uml#_GF3QobIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-XrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF33sLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-X7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-YLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IOr-YbIuEeaXg4d1gXIJ2A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IOr-YrIuEeaXg4d1gXIJ2A" defaultValue="new ArrayList&lt;Board>()" name="gameObserver">
+      <modelElement href="SpaceGame.uml#_GF33sbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-Y7IuEeaXg4d1gXIJ2A" name="Generics">
+        <modelElement href="SpaceGame.uml#_GF4ewLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IOr-ZLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF4ewrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-ZbIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-ZrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IOr-Z7IuEeaXg4d1gXIJ2A" name="ArrayList">
+        <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IOr-aLIuEeaXg4d1gXIJ2A" defaultValue="0" name="latestTurn">
+      <modelElement href="SpaceGame.uml#_GF4ew7IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-abIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF5s4LIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-arIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-a7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IOr-bLIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IOr-bbIuEeaXg4d1gXIJ2A" defaultValue="null" name="shipType">
+      <modelElement href="SpaceGame.uml#_GF5s4bIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-brIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF6T8bIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-b7IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-cLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IOr-cbIuEeaXg4d1gXIJ2A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rcZALIuEeaXg4d1gXIJ2A" name="shipFactory">
+      <modelElement href="SpaceGame.uml#_3raj07IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_3rcZAbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_3rcZArIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_3rcZA7IuEeaXg4d1gXIJ2A" name="ShipFactory">
+        <modelElement href="SpaceGame.uml#_F_4kcLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BoClCbIvEeaXg4d1gXIJ2A" name="shipBattleBehaviour">
+      <modelElement href="SpaceGame.uml#_BoAv0LIvEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_BoClCrIvEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_BoClC7IvEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_BoClDLIvEeaXg4d1gXIJ2A" name="ShipBattleBehaviour">
+        <modelElement href="SpaceGame.uml#_F_j0ULIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IOr-crIuEeaXg4d1gXIJ2A" name="notifyObservers">
+      <modelElement href="SpaceGame.uml#_F_VK0LIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-c7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_Vx4LIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IOr-dLIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_Vx4bIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-dbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-drIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IOr-d7IuEeaXg4d1gXIJ2A" name="notifyObservers">
+      <modelElement href="SpaceGame.uml#_F_WY8LIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-eLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_WY8rIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IOr-ebIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_XAALIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-erIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-e7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-fLIuEeaXg4d1gXIJ2A" name="latestTurn">
+        <modelElement href="SpaceGame.uml#_F_WY8bIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-fbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-frIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-f7IuEeaXg4d1gXIJ2A" name="notifyObservers">
+      <modelElement href="SpaceGame.uml#_F_XAArIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-gLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_F_XnELIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IOr-gbIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_F_XnEbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-grIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-g7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-hLIuEeaXg4d1gXIJ2A" name="shipType">
+        <modelElement href="SpaceGame.uml#_F_XAA7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-hbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-hrIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-h7IuEeaXg4d1gXIJ2A" name="getTurnUpdate">
+      <modelElement href="SpaceGame.uml#_F_XnE7IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-iLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-ibIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-irIuEeaXg4d1gXIJ2A" name="latestTurn">
+        <modelElement href="SpaceGame.uml#_F_XnFLIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-i7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-jLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-jbIuEeaXg4d1gXIJ2A" name="getShipUpdate">
+      <modelElement href="SpaceGame.uml#_F_YOILIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-jrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-j7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-kLIuEeaXg4d1gXIJ2A" name="shipType">
+        <modelElement href="SpaceGame.uml#_F_YOIbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-kbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-krIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-k7IuEeaXg4d1gXIJ2A" name="setTurnUpdate">
+      <modelElement href="SpaceGame.uml#_F_YOIrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-lLIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-lbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-lrIuEeaXg4d1gXIJ2A" name="latestTurn">
+        <modelElement href="SpaceGame.uml#_F_YOI7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-l7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-mLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-mbIuEeaXg4d1gXIJ2A" name="setShipUpdate">
+      <modelElement href="SpaceGame.uml#_F_Y1MLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-mrIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-m7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-nLIuEeaXg4d1gXIJ2A" name="shipType">
+        <modelElement href="SpaceGame.uml#_F_Y1MbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-nbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-nrIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-n7IuEeaXg4d1gXIJ2A" name="gameOver">
+      <modelElement href="SpaceGame.uml#_F_Y1MrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-oLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-obIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IOr-orIuEeaXg4d1gXIJ2A" name="getFlagState">
+      <modelElement href="SpaceGame.uml#_F_Y1M7IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-o7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-pLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IOr-pbIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_Y1NLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IOr-prIuEeaXg4d1gXIJ2A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IOr-p7IuEeaXg4d1gXIJ2A" name="getPlayerShipStartX">
+      <modelElement href="SpaceGame.uml#_F_ZcQLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-qLIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-qbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IOr-qrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_ZcQbIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IOr-q7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IOr-rLIuEeaXg4d1gXIJ2A" name="getPlayerShipStartY">
+      <modelElement href="SpaceGame.uml#_F_ZcQrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-rbIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-rrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IOr-r7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_ZcQ7IuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IOr-sLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IOr-sbIuEeaXg4d1gXIJ2A" name="spawnShip">
+      <modelElement href="SpaceGame.uml#_F_aDULIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-srIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-s7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IOr-tLIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GERVNLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IOr-tbIuEeaXg4d1gXIJ2A" name="Ships">
+          <modelElement href="SpaceGame.uml#_GAQ-8LIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IOr-trIuEeaXg4d1gXIJ2A" name="x">
+        <modelElement href="SpaceGame.uml#_F_aDUbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-t7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-uLIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IOr-ubIuEeaXg4d1gXIJ2A" name="y">
+        <modelElement href="SpaceGame.uml#_F_aDUrIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-urIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-u7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-vLIuEeaXg4d1gXIJ2A" name="spawnPlayerShip">
+      <modelElement href="SpaceGame.uml#_F_aqYLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-vbIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-vrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IOr-v7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GER8QLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IOr-wLIuEeaXg4d1gXIJ2A" name="Ships">
+          <modelElement href="SpaceGame.uml#_GAQ-8LIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IOr-wbIuEeaXg4d1gXIJ2A" name="x">
+        <modelElement href="SpaceGame.uml#_F_aqYbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-wrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-w7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IOr-xLIuEeaXg4d1gXIJ2A" name="y">
+        <modelElement href="SpaceGame.uml#_F_aqYrIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-xbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-xrIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-x7IuEeaXg4d1gXIJ2A" name="registerObserver">
+      <modelElement href="SpaceGame.uml#_GEQHEbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-yLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GEQuILIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IOr-ybIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GEQuIbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-yrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-y7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-zLIuEeaXg4d1gXIJ2A" name="o">
+        <modelElement href="SpaceGame.uml#_GEQHErIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-zbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-zrIuEeaXg4d1gXIJ2A" name="Board">
+          <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-z7IuEeaXg4d1gXIJ2A" name="removeObserver">
+      <modelElement href="SpaceGame.uml#_GEQuI7IuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IOr-0LIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GERVMbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IOr-0bIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GERVMrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-0rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-07IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-1LIuEeaXg4d1gXIJ2A" name="o">
+        <modelElement href="SpaceGame.uml#_GERVMLIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-1bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-1rIuEeaXg4d1gXIJ2A" name="Board">
+          <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-17IuEeaXg4d1gXIJ2A" name="GameRunner">
+      <modelElement href="SpaceGame.uml#_GEq90LIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_IOr-2LIuEeaXg4d1gXIJ2A" keyword="create"/>
+      <stereotypes xmi:id="_IOr-2bIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GErk4LIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IOr-2rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-27IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IOr-3LIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GErk4bIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IOr-3bIuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IOr-3rIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GEq90bIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-37IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-4LIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-4bIuEeaXg4d1gXIJ2A" name="executeMoves">
+      <modelElement href="SpaceGame.uml#_GEsL8LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-4rIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-47IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-5LIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GEsL8bIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-5bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-5rIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-57IuEeaXg4d1gXIJ2A" name="resolveBattles">
+      <modelElement href="SpaceGame.uml#_GEtaELIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-6LIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IOr-6bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-6rIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GEtaEbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-67IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-7LIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IOr-7bIuEeaXg4d1gXIJ2A" name="game">
+        <modelElement href="SpaceGame.uml#_GEtaErIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-7rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-77IuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IOr-8LIuEeaXg4d1gXIJ2A" name="battle">
+        <modelElement href="SpaceGame.uml#_GEtaE7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-8bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-8rIuEeaXg4d1gXIJ2A" name="ShipBattleBehaviourContext">
+          <modelElement href="SpaceGame.uml#_F_lCcLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IOr-87IuEeaXg4d1gXIJ2A" name="nextTurn">
+      <modelElement href="SpaceGame.uml#_GEuBIbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IOr-9LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IOr-9bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IOr-9rIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GEuBIrIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-97IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr--LIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IOr--bIuEeaXg4d1gXIJ2A" name="game">
+        <modelElement href="SpaceGame.uml#_GEuBI7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr--rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr--7IuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IOr-_LIuEeaXg4d1gXIJ2A" name="battle">
+        <modelElement href="SpaceGame.uml#_GEuoMLIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IOr-_bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IOr-_rIuEeaXg4d1gXIJ2A" name="ShipBattleBehaviourContext">
+          <modelElement href="SpaceGame.uml#_F_lCcLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_IVjbULIuEeaXg4d1gXIJ2A" name="ShipBattleBehaviour" associationsIn="_IVOrMLIuEeaXg4d1gXIJ2A" associationsOut="_BoClALIvEeaXg4d1gXIJ2A" subclassedBy="_IUZkwLIuEeaXg4d1gXIJ2A _IVB24LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_j0ULIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IVjbUbIuEeaXg4d1gXIJ2A" position="1278.0,1096.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IVjbUrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_BoDMELIvEeaXg4d1gXIJ2A" name="gameRunner">
+      <modelElement href="SpaceGame.uml#_BoAv07IvEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_BoDMEbIvEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_BoDMErIvEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_BoDME7IvEeaXg4d1gXIJ2A" name="GameRunner">
+        <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IVjbU7IuEeaXg4d1gXIJ2A" name="resolveBattle">
+      <modelElement href="SpaceGame.uml#_GEv2ULIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IVjbVLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IVjbVbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IVjbVrIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GEv2UbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IVjbV7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IVjbWLIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IVjbWbIuEeaXg4d1gXIJ2A" name="game">
+        <modelElement href="SpaceGame.uml#_GEv2UrIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IVjbWrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IVjbW7IuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IPczVbIuEeaXg4d1gXIJ2A" name="GameSwitch" associationsIn="_-cX2ELI1EeaXg4d1gXIJ2A _GW-8MLI2EeaXg4d1gXIJ2A" associationsOut="_IPblMLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_e70LIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IPczVrIuEeaXg4d1gXIJ2A" position="2005.0,921.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IPczV7IuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IPczWLIuEeaXg4d1gXIJ2A" name="GameOverCommand">
+      <modelElement href="SpaceGame.uml#_GF67ALIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IPczWbIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GF7iELIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IPczWrIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IPczW7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IPczXLIuEeaXg4d1gXIJ2A" name="Command">
+        <modelElement href="SpaceGame.uml#_F_I9kLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-cX2GbI1EeaXg4d1gXIJ2A" name="defensiveBehaviour">
+      <modelElement href="SpaceGame.uml#_-cWn8bI1EeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_-cX2GrI1EeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_-cX2G7I1EeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_-cX2HLI1EeaXg4d1gXIJ2A" name="DefensiveBehaviour">
+        <modelElement href="SpaceGame.uml#_F_JkobIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GW-8ObI2EeaXg4d1gXIJ2A" name="aggressiveBehaviour">
+      <modelElement href="SpaceGame.uml#_GW9uELI2EeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_GW-8OrI2EeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_GW-8O7I2EeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_GW-8PLI2EeaXg4d1gXIJ2A" name="AggressiveBehaviour">
+        <modelElement href="SpaceGame.uml#_F-e2QLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IPczXbIuEeaXg4d1gXIJ2A" name="turnGameOverOn">
+      <modelElement href="SpaceGame.uml#_F_gJ8LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IPczXrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IPczX7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IPczYLIuEeaXg4d1gXIJ2A" name="GameSwitch">
+      <modelElement href="SpaceGame.uml#_GETxcLIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_IPczYbIuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_IPczYrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IPczY7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IPczZLIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GETxdLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IPczZbIuEeaXg4d1gXIJ2A" name="GameSwitch">
+          <modelElement href="SpaceGame.uml#_F_e70LIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IPczZrIuEeaXg4d1gXIJ2A" name="gameOver">
+        <modelElement href="SpaceGame.uml#_GETxcbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IPczZ7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IPczaLIuEeaXg4d1gXIJ2A" name="Command">
+          <modelElement href="SpaceGame.uml#_F_I9kLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_IKgB4LIuEeaXg4d1gXIJ2A" name="Command" associationsIn="_IPblMLIuEeaXg4d1gXIJ2A" subclassedBy="_IMyg4LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_I9kLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IKgB4bIuEeaXg4d1gXIJ2A" position="1744.0,918.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IKgB4rIuEeaXg4d1gXIJ2A" label="+"/>
+    <operations xmi:id="_IKgB47IuEeaXg4d1gXIJ2A" abstractOperation="true" name="execute">
+      <modelElement href="SpaceGame.uml#_F_JkoLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IKgB5LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IKgB5bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ih1j0LIuEeaXg4d1gXIJ2A" name="SpaceGameMain" associationsOut="_9RYGwLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_GATbMbIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_Ih1j0bIuEeaXg4d1gXIJ2A" position="1673.0,1710.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ih1j0rIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_9RZU4LIuEeaXg4d1gXIJ2A" name="board">
+      <modelElement href="SpaceGame.uml#_9RW4o7IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_9RZU4bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_9RZU4rIuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_9RZU47IuEeaXg4d1gXIJ2A" name="Board">
+        <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ih1j07IuEeaXg4d1gXIJ2A" name="main" staticOperation="true">
+      <modelElement href="SpaceGame.uml#_GAUCQLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_Ih1j1LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_Ih1j1bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ih1j1rIuEeaXg4d1gXIJ2A" name="args">
+        <modelElement href="SpaceGame.uml#_GAUCQbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_Ih1j17IuEeaXg4d1gXIJ2A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Ih1j2LIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_INwxQLIuEeaXg4d1gXIJ2A" name="GameOverCommand" associationsOut="_INS3MLIuEeaXg4d1gXIJ2A" generalizations="_IMyg4LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_SukLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_INwxQbIuEeaXg4d1gXIJ2A" position="1262.0,912.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_INwxQrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_INwxQ7IuEeaXg4d1gXIJ2A" name="gameController">
+      <modelElement href="SpaceGame.uml#_GFy_MLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_INwxRLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFy_MbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_INwxRbIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_INwxRrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_INwxR7IuEeaXg4d1gXIJ2A" name="GameRunner">
+        <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_INwxSLIuEeaXg4d1gXIJ2A" name="execute">
+      <modelElement href="SpaceGame.uml#_F_TVoLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_INwxSbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_INwxSrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_INwxS7IuEeaXg4d1gXIJ2A" name="GameOverCommand">
+      <modelElement href="SpaceGame.uml#_GEO48LIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_INwxTLIuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_INwxTbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_INwxTrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_INwxT7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GEO49LIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_INwxULIuEeaXg4d1gXIJ2A" name="GameOverCommand">
+          <modelElement href="SpaceGame.uml#_F_SukLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_INwxUbIuEeaXg4d1gXIJ2A" name="game">
+        <modelElement href="SpaceGame.uml#_GEO48bIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_INwxUrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_INwxU7IuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_IRNG0LIuEeaXg4d1gXIJ2A" name="Observable" subclassedBy="_IQNBQLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_gxALIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IRNG0bIuEeaXg4d1gXIJ2A" position="1234.0,628.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IRNG0rIuEeaXg4d1gXIJ2A" label="+"/>
+    <operations xmi:id="_IRNG07IuEeaXg4d1gXIJ2A" name="notifyObservers">
+      <modelElement href="SpaceGame.uml#_F_hYELIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IRNG1LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IRNG1bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IRNG1rIuEeaXg4d1gXIJ2A" name="notifyObservers">
+      <modelElement href="SpaceGame.uml#_F_hYEbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IRNG17IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IRNG2LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IRNG2bIuEeaXg4d1gXIJ2A" name="latestTurn">
+        <modelElement href="SpaceGame.uml#_F_hYErIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IRNG2rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IRNG27IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IRNG3LIuEeaXg4d1gXIJ2A" name="notifyObservers">
+      <modelElement href="SpaceGame.uml#_F_hYE7IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IRNG3bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IRNG3rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IRNG37IuEeaXg4d1gXIJ2A" name="shipType">
+        <modelElement href="SpaceGame.uml#_F_h_ILIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IRNG4LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IRNG4bIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IRNG4rIuEeaXg4d1gXIJ2A" name="registerObserver">
+      <modelElement href="SpaceGame.uml#_GEUYgLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IRNG47IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IRNG5LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IRNG5bIuEeaXg4d1gXIJ2A" name="o">
+        <modelElement href="SpaceGame.uml#_GEUYgbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IRNG5rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IRNG57IuEeaXg4d1gXIJ2A" name="Board">
+          <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IRNG6LIuEeaXg4d1gXIJ2A" name="removeObserver">
+      <modelElement href="SpaceGame.uml#_GEUYgrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IRNG6bIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IRNG6rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IRNG67IuEeaXg4d1gXIJ2A" name="o">
+        <modelElement href="SpaceGame.uml#_GEUYg7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IRNG7LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IRNG7bIuEeaXg4d1gXIJ2A" name="Board">
+          <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IefU4LIuEeaXg4d1gXIJ2A" name="ShipMoveHistory" associationsOut="_IdXTgLIuEeaXg4d1gXIJ2A _IeLL0LIuEeaXg4d1gXIJ2A _0bsfgLIuEeaXg4d1gXIJ2A _KJzf0LIxEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_5ykLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IefU4bIuEeaXg4d1gXIJ2A" position="551.0,1572.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IefU4rIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IefU47IuEeaXg4d1gXIJ2A" defaultValue="new ArrayList&lt;>()" name="clonedShipList">
+      <modelElement href="SpaceGame.uml#_GGBosLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IefU5LIuEeaXg4d1gXIJ2A" name="Generics">
+        <modelElement href="SpaceGame.uml#_GGBosbIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IefU5bIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGCPwLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IefU5rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IefU57IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IefU6LIuEeaXg4d1gXIJ2A" name="ArrayList">
+        <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IefU6bIuEeaXg4d1gXIJ2A" defaultValue="null" name="dummyShip">
+      <modelElement href="SpaceGame.uml#_GGCPwbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IefU6rIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GGC20LIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IefU67IuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IefU7LIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IefU7bIuEeaXg4d1gXIJ2A" name="Ships">
+        <modelElement href="SpaceGame.uml#_GAQ-8LIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0bsfibIuEeaXg4d1gXIJ2A" name="shipFactory">
+      <modelElement href="SpaceGame.uml#_0brRYbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_0bsfirIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_0bsfi7IuEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_0bsfjLIuEeaXg4d1gXIJ2A" name="ShipFactory">
+        <modelElement href="SpaceGame.uml#_F_4kcLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KJ0G4LIxEeaXg4d1gXIJ2A" name="board">
+      <modelElement href="SpaceGame.uml#_KJyRtLIxEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_KJ0G4bIxEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_KJ0G4rIxEeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_KJ0G47IxEeaXg4d1gXIJ2A" name="Board">
+        <modelElement href="SpaceGame.uml#_F-h5kLIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IefU7rIuEeaXg4d1gXIJ2A" name="getClonedShipList">
+      <modelElement href="SpaceGame.uml#_F_6ZoLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IefU77IuEeaXg4d1gXIJ2A" name="Generics">
+        <modelElement href="SpaceGame.uml#_GAExsLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IefU8LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IefU8bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IefU8rIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GFNJULIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IefU87IuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IefU9LIuEeaXg4d1gXIJ2A" name="cloneShip">
+      <modelElement href="SpaceGame.uml#_GEYp8LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IefU9bIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IefU9rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IefU97IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GEYp8rIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IefU-LIuEeaXg4d1gXIJ2A" name="Ships">
+          <modelElement href="SpaceGame.uml#_GAQ-8LIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IefU-bIuEeaXg4d1gXIJ2A" name="realShip">
+        <modelElement href="SpaceGame.uml#_GEYp8bIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IefU-rIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IefU-7IuEeaXg4d1gXIJ2A" name="Ships">
+          <modelElement href="SpaceGame.uml#_GAQ-8LIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IefU_LIuEeaXg4d1gXIJ2A" name="ShipMoveHistory">
+      <modelElement href="SpaceGame.uml#_GFLUILIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_IefU_bIuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_IefU_rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IefU_7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IefVALIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GFLUJLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IefVAbIuEeaXg4d1gXIJ2A" name="ShipMoveHistory">
+          <modelElement href="SpaceGame.uml#_F_5ykLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IefVArIuEeaXg4d1gXIJ2A" name="ships">
+        <modelElement href="SpaceGame.uml#_GFLUIbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IefVA7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IefVBLIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IefVBbIuEeaXg4d1gXIJ2A" name="cloneShipList">
+      <modelElement href="SpaceGame.uml#_GFL7MbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IefVBrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IefVB7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IefVCLIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GFL7MrIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IefVCbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IefVCrIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IMQVYLIuEeaXg4d1gXIJ2A" name="GameCanvas" associationsIn="_IJ6zELIuEeaXg4d1gXIJ2A" associationsOut="_IL03kLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_Mn8rIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IMQVYbIuEeaXg4d1gXIJ2A" position="1432.0,1823.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IMQVYrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_IMQVY7IuEeaXg4d1gXIJ2A" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="SpaceGame.uml#_GFdA8LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVZLIuEeaXg4d1gXIJ2A" label="-"/>
+      <cardinality xmi:id="_IMQVZbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IMQVZrIuEeaXg4d1gXIJ2A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IMQVZ7IuEeaXg4d1gXIJ2A" defaultValue="new ArrayList&lt;>()" name="shipsList">
+      <modelElement href="SpaceGame.uml#_GFdA8rIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IMQVaLIuEeaXg4d1gXIJ2A" name="Generics">
+        <modelElement href="SpaceGame.uml#_GFdoALIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IMQVabIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFxxELIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IMQVarIuEeaXg4d1gXIJ2A" label="~"/>
+      <cardinality xmi:id="_IMQVa7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IMQVbLIuEeaXg4d1gXIJ2A" name="ArrayList">
+        <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IMQVbbIuEeaXg4d1gXIJ2A" name="pMapX">
+      <modelElement href="SpaceGame.uml#_GFxxEbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IMQVbrIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFyYILIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IMQVb7IuEeaXg4d1gXIJ2A" label="~"/>
+      <cardinality xmi:id="_IMQVcLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IMQVcbIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IMQVcrIuEeaXg4d1gXIJ2A" name="pMapY">
+      <modelElement href="SpaceGame.uml#_GFyYIbIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IMQVc7IuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GFyYIrIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IMQVdLIuEeaXg4d1gXIJ2A" label="~"/>
+      <cardinality xmi:id="_IMQVdbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <type xmi:id="_IMQVdrIuEeaXg4d1gXIJ2A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IMQVd7IuEeaXg4d1gXIJ2A" name="getShipX">
+      <modelElement href="SpaceGame.uml#_F_OdILIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVeLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVebIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IMQVerIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_OdIrIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IMQVe7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IMQVfLIuEeaXg4d1gXIJ2A" name="x">
+        <modelElement href="SpaceGame.uml#_F_OdIbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVfbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVfrIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IMQVf7IuEeaXg4d1gXIJ2A" name="getShipY">
+      <modelElement href="SpaceGame.uml#_F_PEMLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVgLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVgbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IMQVgrIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_F_PEMrIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IMQVg7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IMQVhLIuEeaXg4d1gXIJ2A" name="y">
+        <modelElement href="SpaceGame.uml#_F_PEMbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVhbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVhrIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IMQVh7IuEeaXg4d1gXIJ2A" name="GameCanvas">
+      <modelElement href="SpaceGame.uml#_GEmsYLIuEeaXg4d1gXIJ2A"/>
+      <keywords xmi:id="_IMQViLIuEeaXg4d1gXIJ2A" keyword="create"/>
+      <visibility xmi:id="_IMQVibIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVirIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IMQVi7IuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GEmsZLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IMQVjLIuEeaXg4d1gXIJ2A" name="GameCanvas">
+          <modelElement href="SpaceGame.uml#_F_Mn8rIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IMQVjbIuEeaXg4d1gXIJ2A" name="shipList">
+        <modelElement href="SpaceGame.uml#_GEmsYbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVjrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVj7IuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IMQVkLIuEeaXg4d1gXIJ2A" name="paint">
+      <modelElement href="SpaceGame.uml#_GEnTcbIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVkbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVkrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IMQVk7IuEeaXg4d1gXIJ2A" name="g">
+        <modelElement href="SpaceGame.uml#_GEnTcrIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVlLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVlbIuEeaXg4d1gXIJ2A" name="Graphics">
+          <modelElement href="SpaceGame.uml#_GEHkMLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IMQVlrIuEeaXg4d1gXIJ2A" name="alienCraft1">
+      <modelElement href="SpaceGame.uml#_GEn6gLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVl7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVmLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IMQVmbIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GEn6grIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IMQVmrIuEeaXg4d1gXIJ2A" name="BufferedImage">
+          <modelElement href="SpaceGame.uml#_GEIyUbIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IMQVm7IuEeaXg4d1gXIJ2A" name="g">
+        <modelElement href="SpaceGame.uml#_GEn6gbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVnLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVnbIuEeaXg4d1gXIJ2A" name="Graphics">
+          <modelElement href="SpaceGame.uml#_GEHkMLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IMQVnrIuEeaXg4d1gXIJ2A" name="alienCraft2">
+      <modelElement href="SpaceGame.uml#_GEohkLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVn7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVoLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IMQVobIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GEohkrIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IMQVorIuEeaXg4d1gXIJ2A" name="BufferedImage">
+          <modelElement href="SpaceGame.uml#_GEIyUbIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IMQVo7IuEeaXg4d1gXIJ2A" name="g">
+        <modelElement href="SpaceGame.uml#_GEohkbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVpLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVpbIuEeaXg4d1gXIJ2A" name="Graphics">
+          <modelElement href="SpaceGame.uml#_GEHkMLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IMQVprIuEeaXg4d1gXIJ2A" name="alienCraft3">
+      <modelElement href="SpaceGame.uml#_GEohk7IuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVp7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVqLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IMQVqbIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GEpIoLIuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IMQVqrIuEeaXg4d1gXIJ2A" name="BufferedImage">
+          <modelElement href="SpaceGame.uml#_GEIyUbIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IMQVq7IuEeaXg4d1gXIJ2A" name="g">
+        <modelElement href="SpaceGame.uml#_GEohlLIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVrLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVrbIuEeaXg4d1gXIJ2A" name="Graphics">
+          <modelElement href="SpaceGame.uml#_GEHkMLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IMQVrrIuEeaXg4d1gXIJ2A" name="playerCraft">
+      <modelElement href="SpaceGame.uml#_GEpIobIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVr7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVsLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IMQVsbIuEeaXg4d1gXIJ2A">
+        <modelElement href="SpaceGame.uml#_GEpIo7IuEeaXg4d1gXIJ2A"/>
+        <type xmi:id="_IMQVsrIuEeaXg4d1gXIJ2A" name="BufferedImage">
+          <modelElement href="SpaceGame.uml#_GEIyUbIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IMQVs7IuEeaXg4d1gXIJ2A" name="g">
+        <modelElement href="SpaceGame.uml#_GEpIorIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVtLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVtbIuEeaXg4d1gXIJ2A" name="Graphics">
+          <modelElement href="SpaceGame.uml#_GEHkMLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IMQVtrIuEeaXg4d1gXIJ2A" name="paintShips">
+      <modelElement href="SpaceGame.uml#_GEpvsLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_IMQVt7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IMQVuLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IMQVubIuEeaXg4d1gXIJ2A" name="g">
+        <modelElement href="SpaceGame.uml#_GEpvsbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IMQVurIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IMQVu7IuEeaXg4d1gXIJ2A" name="Graphics">
+          <modelElement href="SpaceGame.uml#_GEHkMLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ITgM4LIuEeaXg4d1gXIJ2A" name="Observer" subclassedBy="_ISXkcLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_imMLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_ITgM4bIuEeaXg4d1gXIJ2A" position="1422.0,1575.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ITgz8LIuEeaXg4d1gXIJ2A" label="+"/>
+    <operations xmi:id="_ITgz8bIuEeaXg4d1gXIJ2A" name="update">
+      <modelElement href="SpaceGame.uml#_F_jNQLIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_ITgz8rIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_ITgz87IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ITgz9LIuEeaXg4d1gXIJ2A" name="shipSpawned">
+        <modelElement href="SpaceGame.uml#_F_jNQbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_ITgz9bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_ITgz9rIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ITgz97IuEeaXg4d1gXIJ2A" name="update">
+      <modelElement href="SpaceGame.uml#_F_jNQrIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_ITgz-LIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_ITgz-bIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ITgz-rIuEeaXg4d1gXIJ2A" name="latestUpdate">
+        <modelElement href="SpaceGame.uml#_F_jNQ7IuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_ITgz-7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_ITgz_LIuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ILh8oLIuEeaXg4d1gXIJ2A" name="DisplayElement" subclassedBy="_ILgugLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_LZ0LIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_ILh8obIuEeaXg4d1gXIJ2A" position="1430.0,1431.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ILh8orIuEeaXg4d1gXIJ2A" label="+"/>
+    <operations xmi:id="_ILh8o7IuEeaXg4d1gXIJ2A" name="display">
+      <modelElement href="SpaceGame.uml#_F_MA4LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_ILh8pLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_ILh8pbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ILh8prIuEeaXg4d1gXIJ2A" name="display">
+      <modelElement href="SpaceGame.uml#_F_MA4bIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_ILh8p7IuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_ILh8qLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ILh8qbIuEeaXg4d1gXIJ2A" name="latestUpdate">
+        <modelElement href="SpaceGame.uml#_F_MA4rIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_ILh8qrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_ILh8q7IuEeaXg4d1gXIJ2A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ILh8rLIuEeaXg4d1gXIJ2A" name="display">
+      <modelElement href="SpaceGame.uml#_F_Mn8LIuEeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_ILh8rbIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_ILh8rrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ILh8r7IuEeaXg4d1gXIJ2A" name="shipType">
+        <modelElement href="SpaceGame.uml#_F_Mn8bIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_ILh8sLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_ILh8sbIuEeaXg4d1gXIJ2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ILCNYLIuEeaXg4d1gXIJ2A" name="DefensiveBehaviour" associationsOut="_-cX2ELI1EeaXg4d1gXIJ2A" generalizations="_IVB24LIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F_JkobIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_ILCNYbIuEeaXg4d1gXIJ2A" position="1710.0,1050.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ILCNYrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_-cX2HbI1EeaXg4d1gXIJ2A" name="gameSwitch">
+      <modelElement href="SpaceGame.uml#_-cWn9LI1EeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_-cX2HrI1EeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_-cX2H7I1EeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_-cX2ILI1EeaXg4d1gXIJ2A" name="GameSwitch">
+        <modelElement href="SpaceGame.uml#_F_e70LIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ILCNY7IuEeaXg4d1gXIJ2A" name="resolveBattle">
+      <modelElement href="SpaceGame.uml#_GEk3MLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_ILCNZLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GEleQLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ILCNZbIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GEmFULIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_ILCNZrIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_ILCNZ7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ILCNaLIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GEk3MbIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_ILCNabIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_ILCNarIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ILCNa7IuEeaXg4d1gXIJ2A" name="game">
+        <modelElement href="SpaceGame.uml#_GEk3MrIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_ILCNbLIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_ILCNbbIuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IJYAgLIuEeaXg4d1gXIJ2A" name="AggressiveBehaviour" associationsOut="_GW-8MLI2EeaXg4d1gXIJ2A" generalizations="_IUZkwLIuEeaXg4d1gXIJ2A">
+    <modelElement href="SpaceGame.uml#_F-e2QLIuEeaXg4d1gXIJ2A"/>
+    <visualProperties xmi:id="_IJYAgbIuEeaXg4d1gXIJ2A" position="1713.0,1149.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IJYAgrIuEeaXg4d1gXIJ2A" label="+"/>
+    <attributes xmi:id="_GW_jQLI2EeaXg4d1gXIJ2A" name="gameSwitch">
+      <modelElement href="SpaceGame.uml#_GW9uE7I2EeaXg4d1gXIJ2A"/>
+      <visibility xmi:id="_GW_jQbI2EeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_GW_jQrI2EeaXg4d1gXIJ2A" label="*" max="-1"/>
+      <type xmi:id="_GW_jQ7I2EeaXg4d1gXIJ2A" name="GameSwitch">
+        <modelElement href="SpaceGame.uml#_F_e70LIuEeaXg4d1gXIJ2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IJYAg7IuEeaXg4d1gXIJ2A" name="resolveBattle">
+      <modelElement href="SpaceGame.uml#_GEfXoLIuEeaXg4d1gXIJ2A"/>
+      <stereotypes xmi:id="_IJYAhLIuEeaXg4d1gXIJ2A" name="LegacyStyledElement">
+        <modelElement href="SpaceGame.uml#_GEf-sLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IJYAhbIuEeaXg4d1gXIJ2A" name="Annotations">
+        <modelElement href="SpaceGame.uml#_GEglwLIuEeaXg4d1gXIJ2A"/>
+      </stereotypes>
+      <visibility xmi:id="_IJYnkLIuEeaXg4d1gXIJ2A" label="+"/>
+      <cardinality xmi:id="_IJYnkbIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IJYnkrIuEeaXg4d1gXIJ2A" name="shipsList">
+        <modelElement href="SpaceGame.uml#_GEfXobIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IJYnk7IuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IJYnlLIuEeaXg4d1gXIJ2A" name="ArrayList">
+          <modelElement href="SpaceGame.uml#_GDf5ILIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IJYnlbIuEeaXg4d1gXIJ2A" name="game">
+        <modelElement href="SpaceGame.uml#_GEfXorIuEeaXg4d1gXIJ2A"/>
+        <cardinality xmi:id="_IJYnlrIuEeaXg4d1gXIJ2A" label="1" max="1" min="1"/>
+        <type xmi:id="_IJYnl7IuEeaXg4d1gXIJ2A" name="GameRunner">
+          <modelElement href="SpaceGame.uml#_F_T8sLIuEeaXg4d1gXIJ2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
